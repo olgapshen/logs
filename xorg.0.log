@@ -1,0 +1,1086 @@
+[    97.018]
+X.Org X Server 1.17.4
+Release Date: 2015-10-28
+[    97.018] X Protocol Version 11, Revision 0
+[    97.018] Build Operating System: c1bm 3.10.0-514.10.2.el7.x86_64
+[    97.018] Current Operating System: Linux m_test.domain.central 2.6.32-696.1.1.el6.i686 #1 SMP Tue Apr 11 16:37:48 UTC 2017 i686
+[    97.018] Kernel command line: ro root=/dev/mapper/vg_test1-lv_root rd_NO_LUKS LANG=ru_RU.CP1251 SYSFONT=latarcyrheb-sun16 crashkernel=129M@0M KEYBOARDTYPE=pc KEYTABLE=us rhgb quiet
+[    97.018] Build Date: 22 March 2017  02:55:50AM
+[    97.019] Build ID: xorg-x11-server 1.17.4-16.el6.centos
+[    97.019] Current version of pixman: 0.32.8
+[    97.019]    Before reporting problems, check http://wiki.centos.org/Documentation
+        to make sure that you have the latest version.
+[    97.019] Markers: (--) probed, (**) from config file, (==) default setting,
+        (++) from command line, (!!) notice, (II) informational,
+        (WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[    97.019] (==) Log file: "/var/log/Xorg.0.log", Time: Wed Oct 19 11:26:33 2022
+[    97.019] (==) Using config file: "/etc/X11/xorg.conf"
+[    97.019] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[    97.019] (==) ServerLayout "X.org Configured"
+[    97.019] (**) |-->Screen "Screen0" (0)
+[    97.019] (**) |   |-->Monitor "Monitor0"
+[    97.020] (**) |-->Screen "Screen1" (1)
+[    97.020] (**) |   |-->Monitor "Monitor1"
+[    97.020] (**) Option "DontZap" "yes"
+[    97.020] (**) Option "BlankTime" "0"
+[    97.020] (**) Option "StandbyTime" "0"
+[    97.020] (**) Option "SuspendTime" "0"
+[    97.020] (**) Option "OffTime" "0"
+[    97.020] (==) Automatically adding devices
+[    97.020] (==) Automatically enabling devices
+[    97.020] (==) Not automatically adding GPU devices
+[    97.020] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[    97.020] (==) FontPath set to:
+        catalogue:/etc/X11/fontpath.d,
+        built-ins
+[    97.020] (==) ModulePath set to "/usr/lib/xorg/modules"
+[    97.020] (II) The server relies on HAL to provide the list of input devices.
+        If no devices become available, reconfigure HAL or disable AutoAddDevices.
+[    97.020] (II) Loader magic: 0xeda020
+[    97.020] (II) Module ABI versions:
+[    97.021]    X.Org ANSI C Emulation: 0.4
+[    97.021]    X.Org Video Driver: 19.0
+[    97.021]    X.Org XInput driver : 21.0
+[    97.021]    X.Org Server Extension : 9.0
+[    97.023] (--) PCI:*(0:0:2:0) 8086:0f31:8086:0f31 rev 17, Mem @ 0xd0000000/4194304, 0xc0000000/268435456, I/O @ 0x0000f080/8, BIOS @ 0x????????/131072
+[    97.023] (II) LoadModule: "glx"
+[    97.023] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[    97.027] (II) Module glx: vendor="X.Org Foundation"
+[    97.027]    compiled for 1.17.4, module version = 1.0.0
+[    97.027]    ABI class: X.Org Server Extension, version 9.0
+[    97.027] (==) AIGLX enabled
+[    97.027] (==) Matched intel as autoconfigured driver 0
+[    97.027] (==) Matched modesetting as autoconfigured driver 1
+[    97.027] (==) Matched fbdev as autoconfigured driver 2
+[    97.027] (==) Matched vesa as autoconfigured driver 3
+[    97.027] (==) Assigned the driver to the xf86ConfigLayout
+[    97.027] (II) LoadModule: "intel"
+[    97.028] (II) Loading /usr/lib/xorg/modules/drivers/intel_drv.so
+[    97.028] (II) Module intel: vendor="X.Org Foundation"
+[    97.028]    compiled for 1.17.4, module version = 2.99.917
+[    97.029]    Module class: X.Org Video Driver
+[    97.029]    ABI class: X.Org Video Driver, version 19.0
+[    97.029] (II) LoadModule: "modesetting"
+[    97.029] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[    97.029] (II) Module modesetting: vendor="X.Org Foundation"
+[    97.029]    compiled for 1.17.4, module version = 1.17.4
+[    97.029]    Module class: X.Org Video Driver
+[    97.029]    ABI class: X.Org Video Driver, version 19.0
+[    97.029] (II) LoadModule: "fbdev"
+[    97.029] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[    97.030] (II) Module fbdev: vendor="X.Org Foundation"
+[    97.030]    compiled for 1.17.4, module version = 0.4.3
+[    97.030]    Module class: X.Org Video Driver
+[    97.030]    ABI class: X.Org Video Driver, version 19.0
+[    97.030] (II) LoadModule: "vesa"
+[    97.030] (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[    97.030] (II) Module vesa: vendor="X.Org Foundation"
+[    97.030]    compiled for 1.17.4, module version = 2.3.4
+[    97.030]    Module class: X.Org Video Driver
+[    97.030]    ABI class: X.Org Video Driver, version 19.0
+[    97.030] (II) intel: Driver for Intel(R) Integrated Graphics Chipsets:
+        i810, i810-dc100, i810e, i815, i830M, 845G, 854, 852GM/855GM, 865G,
+        915G, E7221 (i915), 915GM, 945G, 945GM, 945GME, Pineview GM,
+        Pineview G, 965G, G35, 965Q, 946GZ, 965GM, 965GME/GLE, G33, Q35, Q33,
+        GM45, 4 Series, G45/G43, Q45/Q43, G41, B43
+[    97.031] (II) intel: Driver for Intel(R) HD Graphics: 2000-6000
+[    97.031] (II) intel: Driver for Intel(R) Iris(TM) Graphics: 5100, 6100
+[    97.031] (II) intel: Driver for Intel(R) Iris(TM) Pro Graphics: 5200, 6200, P6300
+[    97.031] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[    97.032] (II) FBDEV: driver for framebuffer: fbdev
+[    97.032] (II) VESA: driver for VESA chipsets: vesa
+[    97.032] (++) using VT number 1
+
+[    97.032] (WW) Falling back to old probe method for modesetting
+[    97.032] (WW) Falling back to old probe method for fbdev
+[    97.032] (II) Loading sub module "fbdevhw"
+[    97.032] (II) LoadModule: "fbdevhw"
+[    97.032] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[    97.032] (II) Module fbdevhw: vendor="X.Org Foundation"
+[    97.033]    compiled for 1.17.4, module version = 0.0.2
+[    97.033]    ABI class: X.Org Video Driver, version 19.0
+[    97.033] (WW) Falling back to old probe method for vesa
+[    97.033] (**) intel(0): Depth 24, (--) framebuffer bpp 32
+[    97.033] (==) intel(0): RGB weight 888
+[    97.033] (==) intel(0): Default visual is TrueColor
+[    97.033] (--) intel(0): Integrated Graphics Chipset: Intel(R) HD Graphics
+[    97.033] (**) intel(0): Relaxed fencing enabled
+[    97.033] (**) intel(0): Wait on SwapBuffers? enabled
+[    97.033] (**) intel(0): Triple buffering? enabled
+[    97.033] (**) intel(0): Framebuffer tiled
+[    97.033] (**) intel(0): Pixmaps tiled
+[    97.033] (**) intel(0): 3D buffers tiled
+[    97.033] (**) intel(0): SwapBuffers wait enabled
+[    97.033] (==) intel(0): video overlay key set to 0x101fe
+[    97.034] (II) intel(0): Output eDP1 using monitor section Monitor0
+[    97.034] (--) intel(0): found backlight control interface acpi_video0
+[    97.053] (II) intel(0): Output VGA1 has no monitor section
+[    97.078] (II) intel(0): Output HDMI1 has no monitor section
+[    97.093] (II) intel(0): Output DP1 has no monitor section
+[    97.158] (II) intel(0): EDID for output eDP1
+[    97.158] (II) intel(0): Manufacturer: CHR  Model: 7511  Serial#: 880
+[    97.158] (II) intel(0): Year: 2013  Week: 5
+[    97.158] (II) intel(0): EDID Version: 1.4
+[    97.158] (II) intel(0): Digital Display Input
+[    97.158] (II) intel(0): 8 bits per channel
+[    97.158] (II) intel(0): Digital interface is DisplayPort
+[    97.158] (II) intel(0): Max Image Size [cm]: horiz.: 43  vert.: 29
+[    97.158] (II) intel(0): Gamma: 2.20
+[    97.158] (II) intel(0): DPMS capabilities: StandBy Suspend Off
+[    97.158] (II) intel(0): Supported color encodings: RGB 4:4:4
+[    97.158] (II) intel(0): First detailed timing is preferred mode
+[    97.158] (II) intel(0): Preferred mode is native pixel format and refresh rate
+[    97.158] (II) intel(0): redX: 0.674 redY: 0.316   greenX: 0.188 greenY: 0.703
+[    97.158] (II) intel(0): blueX: 0.146 blueY: 0.062   whiteX: 0.312 whiteY: 0.326
+[    97.158] (II) intel(0): Manufacturer's mask: 0
+[    97.158] (II) intel(0): Supported detailed timing:
+[    97.158] (II) intel(0): clock: 138.5 MHz   Image Size:  519 x 324 mm
+[    97.158] (II) intel(0): h_active: 1920  h_sync: 1968  h_sync_end 2000 h_blank_end 2095 h_border: 0
+[    97.158] (II) intel(0): v_active: 1080  v_sync: 1083  v_sync_end 1088 v_blanking: 1111 v_border: 0
+[    97.158] (II) intel(0): Ranges: V min: 56 V max: 76 Hz, H min: 30 H max: 83 kHz, PixClock max 175 MHz
+[    97.158] (II) intel(0): Monitor name: CH7511B
+[    97.158] (II) intel(0): EDID (in hex):
+[    97.159] (II) intel(0):     00ffffffffffff000d12117570030000
+[    97.159] (II) intel(0):     05170104a52b1d78e28042ac5130b425
+[    97.159] (II) intel(0):     10505300000001010101010101010101
+[    97.159] (II) intel(0):     0101010101011a3680af70381f403020
+[    97.159] (II) intel(0):     350007442100001a0000000000000000
+[    97.159] (II) intel(0):     00000000000000000000000000fd0038
+[    97.159] (II) intel(0):     4c1e5311000a202020202020000000fc
+[    97.159] (II) intel(0):     00434837353131420a2020202020005c
+[    97.159] (II) intel(0): Not using default mode "320x240" (doublescan mode not supported)
+[    97.159] (II) intel(0): Not using default mode "400x300" (doublescan mode not supported)
+[    97.159] (II) intel(0): Not using default mode "400x300" (doublescan mode not supported)
+[    97.159] (II) intel(0): Not using default mode "512x384" (doublescan mode not supported)
+[    97.159] (II) intel(0): Not using default mode "640x480" (doublescan mode not supported)
+[    97.159] (II) intel(0): Not using default mode "640x512" (doublescan mode not supported)
+[    97.159] (II) intel(0): Not using default mode "800x600" (doublescan mode not supported)
+[    97.159] (II) intel(0): Not using default mode "896x672" (doublescan mode not supported)
+[    97.159] (II) intel(0): Not using default mode "928x696" (doublescan mode not supported)
+[    97.159] (II) intel(0): Not using default mode "960x720" (doublescan mode not supported)
+[    97.159] (II) intel(0): Not using default mode "700x525" (doublescan mode not supported)
+[    97.159] (II) intel(0): Not using default mode "1024x768" (doublescan mode not supported)
+[    97.159] (II) intel(0): Printing probed modes for output eDP1
+[    97.159] (II) intel(0): Modeline "1280x1024"x60.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz UdP)
+[    97.159] (II) intel(0): Modeline "1920x1080"x59.5  138.50  1920 1968 2000 2095  1080 1083 1088 1111 +hsync -vsync (66.1 kHz eP)
+[    97.160] (II) intel(0): Modeline "1400x1050"x60.0  122.00  1400 1488 1640 1880  1050 1052 1064 1082 +hsync +vsync (64.9 kHz d)
+[    97.160] (II) intel(0): Modeline "1280x960"x60.0  108.00  1280 1376 1488 1800  960 961 964 1000 +hsync +vsync (60.0 kHz d)
+[    97.160] (II) intel(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz d)
+[    97.160] (II) intel(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz d)
+[    97.160] (II) intel(0): Modeline "800x600"x56.2   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz d)
+[    97.160] (II) intel(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz d)
+[    97.160] (II) intel(0): EDID for output VGA1
+[    97.160] (II) intel(0): Manufacturer: ACR  Model: 3db  Serial#: 1413500217
+[    97.160] (II) intel(0): Year: 2015  Week: 44
+[    97.160] (II) intel(0): EDID Version: 1.3
+[    97.160] (II) intel(0): Analog Display Input,  Input Voltage Level: 0.700/0.700 V
+[    97.160] (II) intel(0): Sync:  Separate
+[    97.160] (II) intel(0): Max Image Size [cm]: horiz.: 41  vert.: 23
+[    97.160] (II) intel(0): Gamma: 2.20
+[    97.160] (II) intel(0): DPMS capabilities: Off; RGB/Color Display
+[    97.160] (II) intel(0): First detailed timing is preferred mode
+[    97.160] (II) intel(0): redX: 0.646 redY: 0.333   greenX: 0.317 greenY: 0.622
+[    97.160] (II) intel(0): blueX: 0.154 blueY: 0.061   whiteX: 0.313 whiteY: 0.329
+[    97.160] (II) intel(0): Supported established timings:
+[    97.160] (II) intel(0): 720x400@70Hz
+[    97.160] (II) intel(0): 640x480@60Hz
+[    97.160] (II) intel(0): 640x480@67Hz
+[    97.160] (II) intel(0): 640x480@72Hz
+[    97.160] (II) intel(0): 640x480@75Hz
+[    97.160] (II) intel(0): 800x600@56Hz
+[    97.160] (II) intel(0): 800x600@60Hz
+[    97.161] (II) intel(0): 800x600@72Hz
+[    97.161] (II) intel(0): 800x600@75Hz
+[    97.161] (II) intel(0): 832x624@75Hz
+[    97.161] (II) intel(0): 1024x768@60Hz
+[    97.161] (II) intel(0): 1024x768@70Hz
+[    97.161] (II) intel(0): 1024x768@75Hz
+[    97.161] (II) intel(0): Manufacturer's mask: 0
+[    97.161] (II) intel(0): Supported standard timings:
+[    97.161] (II) intel(0): #0: hsize: 1280  vsize 720  refresh: 60  vid: 49281
+[    97.161] (II) intel(0): #1: hsize: 1280  vsize 800  refresh: 60  vid: 129
+[    97.161] (II) intel(0): Supported detailed timing:
+[    97.161] (II) intel(0): clock: 85.5 MHz   Image Size:  410 x 230 mm
+[    97.161] (II) intel(0): h_active: 1366  h_sync: 1436  h_sync_end 1579 h_blank_end 1792 h_border: 0
+[    97.161] (II) intel(0): v_active: 768  v_sync: 771  v_sync_end 774 v_blanking: 798 v_border: 0
+[    97.161] (II) intel(0): Ranges: V min: 55 V max: 76 Hz, H min: 30 H max: 80 kHz, PixClock max 95 MHz
+[    97.161] (II) intel(0): Serial No: T0AEE0024205
+[    97.161] (II) intel(0): Monitor name: Acer K192HQL
+[    97.161] (II) intel(0): EDID (in hex):
+[    97.161] (II) intel(0):     00ffffffffffff000472db03394d4054
+[    97.161] (II) intel(0):     2c190103682917782a55a5a555519f27
+[    97.161] (II) intel(0):     0f5054bfee0081c08100010101010101
+[    97.161] (II) intel(0):     010101010101662156aa51001e30468f
+[    97.161] (II) intel(0):     33009ae61000001e000000fd00374c1e
+[    97.161] (II) intel(0):     5009000a202020202020000000ff0054
+[    97.161] (II) intel(0):     30414545303032343230350a000000fc
+[    97.161] (II) intel(0):     0041636572204b31393248514c0a000d
+[    97.161] (II) intel(0): Printing probed modes for output VGA1
+[    97.161] (II) intel(0): Modeline "1366x768"x59.8   85.50  1366 1436 1579 1792  768 771 774 798 +hsync +vsync (47.7 kHz eP)
+[    97.162] (II) intel(0): Modeline "1280x800"x59.8   83.50  1280 1352 1480 1680  800 803 809 831 -hsync +vsync (49.7 kHz e)
+[    97.162] (II) intel(0): Modeline "1280x720"x60.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[    97.162] (II) intel(0): Modeline "1024x768"x75.1   78.80  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.1 kHz e)
+[    97.162] (II) intel(0): Modeline "1024x768"x70.1   75.00  1024 1048 1184 1328  768 771 777 806 -hsync -vsync (56.5 kHz e)
+[    97.162] (II) intel(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[    97.162] (II) intel(0): Modeline "832x624"x74.6   57.28  832 864 928 1152  624 625 628 667 -hsync -vsync (49.7 kHz e)
+[    97.162] (II) intel(0): Modeline "800x600"x72.2   50.00  800 856 976 1040  600 637 643 666 +hsync +vsync (48.1 kHz e)
+[    97.162] (II) intel(0): Modeline "800x600"x75.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[    97.162] (II) intel(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[    97.162] (II) intel(0): Modeline "800x600"x56.2   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz e)
+[    97.162] (II) intel(0): Modeline "640x480"x75.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[    97.162] (II) intel(0): Modeline "640x480"x72.8   31.50  640 664 704 832  480 489 491 520 -hsync -vsync (37.9 kHz e)
+[    97.162] (II) intel(0): Modeline "640x480"x66.7   30.24  640 704 768 864  480 483 486 525 -hsync -vsync (35.0 kHz e)
+[    97.162] (II) intel(0): Modeline "640x480"x60.0   25.20  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[    97.162] (II) intel(0): Modeline "720x400"x70.1   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[    97.162] (II) intel(0): EDID for output HDMI1
+[    97.162] (II) intel(0): Manufacturer: PHL  Model: c0cd  Serial#: 10431
+[    97.162] (II) intel(0): Year: 2016  Week: 25
+[    97.162] (II) intel(0): EDID Version: 1.3
+[    97.162] (II) intel(0): Digital Display Input
+[    97.162] (II) intel(0): Max Image Size [cm]: horiz.: 41  vert.: 23
+[    97.162] (II) intel(0): Gamma: 2.20
+[    97.162] (II) intel(0): DPMS capabilities: Off
+[    97.162] (II) intel(0): Supported color encodings: RGB 4:4:4 YCrCb 4:4:4
+[    97.162] (II) intel(0): First detailed timing is preferred mode
+[    97.163] (II) intel(0): redX: 0.641 redY: 0.340   greenX: 0.315 greenY: 0.629
+[    97.163] (II) intel(0): blueX: 0.159 blueY: 0.051   whiteX: 0.313 whiteY: 0.329
+[    97.163] (II) intel(0): Supported established timings:
+[    97.163] (II) intel(0): 720x400@70Hz
+[    97.163] (II) intel(0): 640x480@60Hz
+[    97.163] (II) intel(0): 640x480@67Hz
+[    97.163] (II) intel(0): 640x480@72Hz
+[    97.163] (II) intel(0): 640x480@75Hz
+[    97.163] (II) intel(0): 800x600@60Hz
+[    97.163] (II) intel(0): 800x600@75Hz
+[    97.163] (II) intel(0): 1024x768@60Hz
+[    97.163] (II) intel(0): 1024x768@75Hz
+[    97.163] (II) intel(0): 1280x1024@75Hz
+[    97.163] (II) intel(0): Manufacturer's mask: 0
+[    97.163] (II) intel(0): Supported standard timings:
+[    97.163] (II) intel(0): #0: hsize: 1280  vsize 1024  refresh: 60  vid: 32897
+[    97.163] (II) intel(0): #1: hsize: 1280  vsize 720  refresh: 60  vid: 49281
+[    97.163] (II) intel(0): Supported detailed timing:
+[    97.163] (II) intel(0): clock: 85.5 MHz   Image Size:  410 x 230 mm
+[    97.163] (II) intel(0): h_active: 1366  h_sync: 1436  h_sync_end 1579 h_blank_end 1792 h_border: 0
+[    97.163] (II) intel(0): v_active: 768  v_sync: 771  v_sync_end 774 v_blanking: 798 v_border: 0
+[    97.163] (II) intel(0): Serial No: UK01625010431
+[    97.163] (II) intel(0): Monitor name: PHL 193V5
+[    97.163] (II) intel(0): Ranges: V min: 56 V max: 76 Hz, H min: 30 H max: 83 kHz, PixClock max 145 MHz
+[    97.163] (II) intel(0): Supported detailed timing:
+[    97.163] (II) intel(0): clock: 27.0 MHz   Image Size:  160 x 90 mm
+[    97.163] (II) intel(0): h_active: 720  h_sync: 736  h_sync_end 798 h_blank_end 858 h_border: 0
+[    97.163] (II) intel(0): v_active: 480  v_sync: 489  v_sync_end 495 v_blanking: 525 v_border: 0
+[    97.164] (II) intel(0): Number of EDID sections to follow: 1
+[    97.164] (II) intel(0): EDID (in hex):
+[    97.164] (II) intel(0):     00ffffffffffff00410ccdc0bf280000
+[    97.164] (II) intel(0):     191a0103802917782a0cc5a45750a128
+[    97.164] (II) intel(0):     0d5054bd4b00818081c0010101010101
+[    97.164] (II) intel(0):     010101010101662156aa51001e30468f
+[    97.164] (II) intel(0):     33009ae61000001e000000ff00554b30
+[    97.164] (II) intel(0):     31363235303130343331000000fc0050
+[    97.164] (II) intel(0):     484c2031393356350a202020000000fd
+[    97.164] (II) intel(0):     00384c1e530e000a20202020202001c1
+[    97.164] (II) intel(0):     02031b71230907078301000067030c00
+[    97.164] (II) intel(0):     2000802d43100403e2000f8c0ad08a20
+[    97.164] (II) intel(0):     e02d10103e9600a05a00000000000000
+[    97.164] (II) intel(0):     00000000000000000000000000000000
+[    97.164] (II) intel(0):     00000000000000000000000000000000
+[    97.164] (II) intel(0):     00000000000000000000000000000000
+[    97.164] (II) intel(0):     00000000000000000000000000000000
+[    97.164] (II) intel(0):     00000000000000000000000000000018
+[    97.164] (--) intel(0): HDMI max TMDS frequency 225000KHz
+[    97.164] (II) intel(0): Printing probed modes for output HDMI1
+[    97.164] (II) intel(0): Modeline "1280x1024"x75.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz UeP)
+[    97.164] (II) intel(0): Modeline "1366x768"x59.8   85.50  1366 1436 1579 1792  768 771 774 798 +hsync +vsync (47.7 kHz eP)
+[    97.164] (II) intel(0): Modeline "1920x1080"x60.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz e)
+[    97.164] (II) intel(0): Modeline "1920x1080"x59.9  148.35  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.4 kHz e)
+[    97.164] (II) intel(0): Modeline "1280x1024"x60.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[    97.164] (II) intel(0): Modeline "1280x720"x60.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[    97.164] (II) intel(0): Modeline "1280x720"x59.9   74.18  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[    97.165] (II) intel(0): Modeline "1024x768"x75.1   78.80  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.1 kHz e)
+[    97.165] (II) intel(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[    97.165] (II) intel(0): Modeline "800x600"x75.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[    97.165] (II) intel(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[    97.165] (II) intel(0): Modeline "720x480"x60.0   27.03  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[    97.165] (II) intel(0): Modeline "720x480"x59.9   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[    97.165] (II) intel(0): Modeline "640x480"x75.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[    97.165] (II) intel(0): Modeline "640x480"x72.8   31.50  640 664 704 832  480 489 491 520 -hsync -vsync (37.9 kHz e)
+[    97.165] (II) intel(0): Modeline "640x480"x66.7   30.24  640 704 768 864  480 483 486 525 -hsync -vsync (35.0 kHz e)
+[    97.165] (II) intel(0): Modeline "640x480"x60.0   25.20  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[    97.165] (II) intel(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[    97.165] (II) intel(0): Modeline "720x400"x70.1   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[    97.165] (II) intel(0): EDID for output DP1
+[    97.165] (II) intel(0): Output eDP1 connected
+[    97.165] (II) intel(0): Output VGA1 connected
+[    97.165] (II) intel(0): Output HDMI1 connected
+[    97.165] (II) intel(0): Output DP1 disconnected
+[    97.165] (II) intel(0): Using user preference for initial modes
+[    97.165] (II) intel(0): Output eDP1 using initial mode 1280x1024 +0+0
+[    97.165] (II) intel(0): Output VGA1 using initial mode 1280x800 +0+0
+[    97.165] (II) intel(0): Output HDMI1 using initial mode 1280x1024 +0+0
+[    97.165] (II) intel(0): Using default gamma of (1.0, 1.0, 1.0) unless otherwise stated.
+[    97.165] (II) intel(0): Kernel page flipping support detected, enabling
+[    97.165] (==) intel(0): DPI set to (96, 96)
+[    97.165] (II) Loading sub module "fb"
+[    97.165] (II) LoadModule: "fb"
+[    97.166] (II) Loading /usr/lib/xorg/modules/libfb.so
+[    97.166] (II) Module fb: vendor="X.Org Foundation"
+[    97.166]    compiled for 1.17.4, module version = 1.0.0
+[    97.167]    ABI class: X.Org ANSI C Emulation, version 0.4
+[    97.167] (II) Loading sub module "dri2"
+[    97.167] (II) LoadModule: "dri2"
+[    97.167] (II) Module "dri2" already built-in
+[    97.167] (II) UnloadModule: "modesetting"
+[    97.167] (II) Unloading modesetting
+[    97.167] (II) UnloadModule: "fbdev"
+[    97.167] (II) Unloading fbdev
+[    97.167] (II) UnloadSubModule: "fbdevhw"
+[    97.167] (II) Unloading fbdevhw
+[    97.167] (II) UnloadModule: "vesa"
+[    97.167] (II) Unloading vesa
+[    97.167] (==) Depth 24 pixmap format is 32 bpp
+[    97.167] (II) intel(0): Allocated new frame buffer 1280x1024 stride 5120, tiled
+[    97.169] (II) UXA(0): Driver registered support for the following operations:
+[    97.170] (II)         solid
+[    97.170] (II)         copy
+[    97.170] (II)         composite (RENDER acceleration)
+[    97.170] (II)         put_image
+[    97.170] (II)         get_image
+[    97.170] (II) intel(0): [DRI2] Setup complete
+[    97.170] (II) intel(0): [DRI2]   DRI driver: i965
+[    97.170] (II) intel(0): [DRI2]   VDPAU driver: va_gl
+[    97.170] (==) intel(0): Backing store enabled
+[    97.170] (==) intel(0): Silken mouse enabled
+[    97.170] (II) intel(0): Initializing HW Cursor
+[    97.170] (II) intel(0): RandR 1.2 enabled, ignore the following RandR disabled message.
+[    97.170] (**) intel(0): DPMS enabled
+[    97.170] (==) intel(0): Intel XvMC decoder enabled
+[    97.170] (II) intel(0): Set up textured video
+[    97.171] (II) intel(0): [XvMC] xvmc_vld driver initialized.
+[    97.171] (II) intel(0): DRI2: Enabled
+[    97.171] (II) intel(0): DRI3: Not available
+[    97.171] (==) intel(0): hotplug detection: "enabled"
+[    97.434] (--) RandR disabled
+[    97.434] (WW) Not including screen "Screen0" in origins calculation.
+[    97.446] (II) SELinux: Disabled on system
+[    97.463] (II) AIGLX: enabled GLX_MESA_copy_sub_buffer
+[    97.463] (II) AIGLX: enabled GLX_ARB_create_context
+[    97.464] (II) AIGLX: enabled GLX_ARB_create_context_profile
+[    97.464] (II) AIGLX: enabled GLX_EXT_create_context_es2_profile
+[    97.464] (II) AIGLX: enabled GLX_INTEL_swap_event
+[    97.464] (II) AIGLX: enabled GLX_SGI_swap_control and GLX_MESA_swap_control
+[    97.464] (II) AIGLX: enabled GLX_EXT_framebuffer_sRGB
+[    97.464] (II) AIGLX: enabled GLX_ARB_fbconfig_float
+[    97.464] (II) AIGLX: GLX_EXT_texture_from_pixmap backed by buffer objects
+[    97.464] (II) AIGLX: enabled GLX_ARB_create_context_robustness
+[    97.464] (II) AIGLX: Loaded and initialized i965
+[    97.464] (II) GLX: Initialized DRI2 GL provider for screen 0
+[    97.465] (II) intel(0): Setting screen physical size to 338 x 270
+[    97.532] (II) config/hal: Adding input device USB USB Keyboard
+[    97.532] (II) LoadModule: "evdev"
+[    97.533] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[    97.533] (II) Module evdev: vendor="X.Org Foundation"
+[    97.533]    compiled for 1.17.4, module version = 2.9.2
+[    97.533]    Module class: X.Org XInput Driver
+[    97.533]    ABI class: X.Org XInput driver, version 21.0
+[    97.533] (II) Using input driver 'evdev' for 'USB USB Keyboard'
+[    97.534] (**) USB USB Keyboard: always reports core events
+[    97.534] (**) evdev: USB USB Keyboard: Device: "/dev/input/event7"
+[    97.541] (--) evdev: USB USB Keyboard: Vendor 0x1a2c Product 0x2c27
+[    97.541] (--) evdev: USB USB Keyboard: Found 1 mouse buttons
+[    97.541] (--) evdev: USB USB Keyboard: Found scroll wheel(s)
+[    97.541] (--) evdev: USB USB Keyboard: Found relative axes
+[    97.541] (II) evdev: USB USB Keyboard: Forcing relative x/y axes to exist.
+[    97.541] (--) evdev: USB USB Keyboard: Found absolute axes
+[    97.541] (II) evdev: USB USB Keyboard: Forcing absolute x/y axes to exist.
+[    97.541] (--) evdev: USB USB Keyboard: Found keys
+[    97.541] (II) evdev: USB USB Keyboard: Configuring as mouse
+[    97.541] (II) evdev: USB USB Keyboard: Configuring as keyboard
+[    97.541] (II) evdev: USB USB Keyboard: Adding scrollwheel support
+[    97.541] (**) evdev: USB USB Keyboard: YAxisMapping: buttons 4 and 5
+[    97.541] (**) evdev: USB USB Keyboard: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[    97.541] (**) Option "config_info" "hal:/org/freedesktop/Hal/devices/usb_device_1a2c_2c27_noserial_if1_logicaldev_input"
+[    97.541] (II) XINPUT: Adding extended input device "USB USB Keyboard" (type: KEYBOARD, id 6)
+[    97.541] (**) Option "xkb_rules" "evdev"
+[    97.541] (**) Option "xkb_model" "pc105"
+[    97.541] (**) Option "xkb_layout" "us,ru"
+[    97.541] (**) Option "xkb_variant" "intl"
+[    97.541] (**) Option "xkb_options" "terminate:ctrl_alt_bksp,grp:alt_shift_toggle,grp_led:scroll"
+[    97.589] (II) evdev: USB USB Keyboard: initialized for relative axes.
+[    97.589] (WW) evdev: USB USB Keyboard: ignoring absolute axes.
+[    97.590] (**) USB USB Keyboard: (accel) keeping acceleration scheme 1
+[    97.590] (**) USB USB Keyboard: (accel) acceleration profile 0
+[    97.590] (**) USB USB Keyboard: (accel) acceleration factor: 2.000
+[    97.590] (**) USB USB Keyboard: (accel) acceleration threshold: 4
+[    97.599] (II) config/hal: Adding input device HDA Intel PCH Front Headphone
+[    97.599] (II) Using input driver 'evdev' for 'HDA Intel PCH Front Headphone'
+[    97.599] (**) HDA Intel PCH Front Headphone: always reports core events
+[    97.599] (**) evdev: HDA Intel PCH Front Headphone: Device: "/dev/input/event11"
+[    97.608] (--) evdev: HDA Intel PCH Front Headphone: Vendor 0 Product 0
+[    97.608] (WW) evdev: HDA Intel PCH Front Headphone: Don't know how to use device
+[    97.616] (EE) PreInit returned 8 for "HDA Intel PCH Front Headphone"
+[    97.616] (II) UnloadModule: "evdev"
+[    97.616] (EE) config/hal: NewInputDeviceRequest failed (8)
+[    97.630] (II) config/hal: Adding input device USB USB Keyboard
+[    97.630] (II) Using input driver 'evdev' for 'USB USB Keyboard'
+[    97.630] (**) USB USB Keyboard: always reports core events
+[    97.630] (**) evdev: USB USB Keyboard: Device: "/dev/input/event6"
+[    97.634] (--) evdev: USB USB Keyboard: Vendor 0x1a2c Product 0x2c27
+[    97.634] (--) evdev: USB USB Keyboard: Found keys
+[    97.634] (II) evdev: USB USB Keyboard: Configuring as keyboard
+[    97.634] (**) Option "config_info" "hal:/org/freedesktop/Hal/devices/usb_device_1a2c_2c27_noserial_if0_logicaldev_input"
+[    97.634] (II) XINPUT: Adding extended input device "USB USB Keyboard" (type: KEYBOARD, id 7)
+[    97.634] (**) Option "xkb_rules" "evdev"
+[    97.634] (**) Option "xkb_model" "pc105"
+[    97.634] (**) Option "xkb_layout" "us,ru"
+[    97.634] (**) Option "xkb_variant" "intl"
+[    97.634] (**) Option "xkb_options" "terminate:ctrl_alt_bksp,grp:alt_shift_toggle,grp_led:scroll"
+[    97.644] (II) config/hal: Adding input device Sleep Button
+[    97.644] (II) Using input driver 'evdev' for 'Sleep Button'
+[    97.644] (**) Sleep Button: always reports core events
+[    97.644] (**) evdev: Sleep Button: Device: "/dev/input/event1"
+[    97.650] (--) evdev: Sleep Button: Vendor 0 Product 0x3
+[    97.650] (--) evdev: Sleep Button: Found keys
+[    97.650] (II) evdev: Sleep Button: Configuring as keyboard
+[    97.650] (**) Option "config_info" "hal:/org/freedesktop/Hal/devices/computer_logicaldev_input_2"
+[    97.650] (II) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 8)
+[    97.650] (**) Option "xkb_rules" "evdev"
+[    97.650] (**) Option "xkb_model" "pc105"
+[    97.650] (**) Option "xkb_layout" "us,ru"
+[    97.650] (**) Option "xkb_variant" "intl"
+[    97.650] (**) Option "xkb_options" "terminate:ctrl_alt_bksp,grp:alt_shift_toggle,grp_led:scroll"
+[    97.659] (II) config/hal: Adding input device Power Button
+[    97.660] (II) Using input driver 'evdev' for 'Power Button'
+[    97.660] (**) Power Button: always reports core events
+[    97.660] (**) evdev: Power Button: Device: "/dev/input/event0"
+[    97.668] (--) evdev: Power Button: Vendor 0 Product 0x1
+[    97.668] (--) evdev: Power Button: Found keys
+[    97.668] (II) evdev: Power Button: Configuring as keyboard
+[    97.668] (**) Option "config_info" "hal:/org/freedesktop/Hal/devices/computer_logicaldev_input_1"
+[    97.668] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 9)
+[    97.668] (**) Option "xkb_rules" "evdev"
+[    97.668] (**) Option "xkb_model" "pc105"
+[    97.668] (**) Option "xkb_layout" "us,ru"
+[    97.668] (**) Option "xkb_variant" "intl"
+[    97.668] (**) Option "xkb_options" "terminate:ctrl_alt_bksp,grp:alt_shift_toggle,grp_led:scroll"
+[    97.677] (II) config/hal: Adding input device Video Bus
+[    97.678] (II) Using input driver 'evdev' for 'Video Bus'
+[    97.678] (**) Video Bus: always reports core events
+[    97.678] (**) evdev: Video Bus: Device: "/dev/input/event4"
+[    97.686] (--) evdev: Video Bus: Vendor 0 Product 0x6
+[    97.686] (--) evdev: Video Bus: Found keys
+[    97.686] (II) evdev: Video Bus: Configuring as keyboard
+[    97.686] (**) Option "config_info" "hal:/org/freedesktop/Hal/devices/computer_logicaldev_input_0"
+[    97.686] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 10)
+[    97.686] (**) Option "xkb_rules" "evdev"
+[    97.686] (**) Option "xkb_model" "pc105"
+[    97.686] (**) Option "xkb_layout" "us,ru"
+[    97.686] (**) Option "xkb_variant" "intl"
+[    97.686] (**) Option "xkb_options" "terminate:ctrl_alt_bksp,grp:alt_shift_toggle,grp_led:scroll"
+[    97.696] (II) config/hal: Adding input device Power Button
+[    97.696] (II) Using input driver 'evdev' for 'Power Button'
+[    97.696] (**) Power Button: always reports core events
+[    97.696] (**) evdev: Power Button: Device: "/dev/input/event2"
+[    97.703] (--) evdev: Power Button: Vendor 0 Product 0x1
+[    97.703] (--) evdev: Power Button: Found keys
+[    97.703] (II) evdev: Power Button: Configuring as keyboard
+[    97.703] (**) Option "config_info" "hal:/org/freedesktop/Hal/devices/computer_logicaldev_input"
+[    97.703] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 11)
+[    97.703] (**) Option "xkb_rules" "evdev"
+[    97.703] (**) Option "xkb_model" "pc105"
+[    97.703] (**) Option "xkb_layout" "us,ru"
+[    97.703] (**) Option "xkb_variant" "intl"
+[    97.703] (**) Option "xkb_options" "terminate:ctrl_alt_bksp,grp:alt_shift_toggle,grp_led:scroll"
+[    97.710] (II) config/hal: Adding input device Macintosh mouse button emulation
+[    97.711] (II) Using input driver 'evdev' for 'Macintosh mouse button emulation'
+[    97.711] (**) Macintosh mouse button emulation: always reports core events
+[    97.711] (**) evdev: Macintosh mouse button emulation: Device: "/dev/input/event3"
+[    97.718] (--) evdev: Macintosh mouse button emulation: Vendor 0x1 Product 0x1
+[    97.718] (--) evdev: Macintosh mouse button emulation: Found 3 mouse buttons
+[    97.718] (--) evdev: Macintosh mouse button emulation: Found relative axes
+[    97.718] (--) evdev: Macintosh mouse button emulation: Found x and y relative axes
+[    97.718] (II) evdev: Macintosh mouse button emulation: Configuring as mouse
+[    97.718] (**) evdev: Macintosh mouse button emulation: YAxisMapping: buttons 4 and 5
+[    97.718] (**) evdev: Macintosh mouse button emulation: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[    97.718] (**) Option "config_info" "hal:/org/freedesktop/Hal/devices/computer_logicaldev_input_3"
+[    97.718] (II) XINPUT: Adding extended input device "Macintosh mouse button emulation" (type: MOUSE, id 12)
+[    97.718] (II) evdev: Macintosh mouse button emulation: initialized for relative axes.
+[    97.718] (**) Macintosh mouse button emulation: (accel) keeping acceleration scheme 1
+[    97.718] (**) Macintosh mouse button emulation: (accel) acceleration profile 0
+[    97.718] (**) Macintosh mouse button emulation: (accel) acceleration factor: 2.000
+[    97.718] (**) Macintosh mouse button emulation: (accel) acceleration threshold: 4
+[    97.727] (II) config/hal: Adding input device HDA Intel PCH HDMI/DP,pcm=3
+[    97.727] (II) Using input driver 'evdev' for 'HDA Intel PCH HDMI/DP,pcm=3'
+[    97.727] (**) HDA Intel PCH HDMI/DP,pcm=3: always reports core events
+[    97.727] (**) evdev: HDA Intel PCH HDMI/DP,pcm=3: Device: "/dev/input/event12"
+[    97.734] (--) evdev: HDA Intel PCH HDMI/DP,pcm=3: Vendor 0 Product 0
+[    97.734] (WW) evdev: HDA Intel PCH HDMI/DP,pcm=3: Don't know how to use device
+[    97.750] (EE) PreInit returned 8 for "HDA Intel PCH HDMI/DP,pcm=3"
+[    97.750] (II) UnloadModule: "evdev"
+[    97.750] (EE) config/hal: NewInputDeviceRequest failed (8)
+[    97.761] (II) config/hal: Adding input device USB OPTICAL MOUSE
+[    97.761] (II) Using input driver 'evdev' for 'USB OPTICAL MOUSE'
+[    97.761] (**) USB OPTICAL MOUSE: always reports core events
+[    97.761] (**) evdev: USB OPTICAL MOUSE: Device: "/dev/input/event5"
+[    97.769] (--) evdev: USB OPTICAL MOUSE: Vendor 0x101 Product 0x7
+[    97.769] (--) evdev: USB OPTICAL MOUSE: Found 9 mouse buttons
+[    97.769] (--) evdev: USB OPTICAL MOUSE: Found scroll wheel(s)
+[    97.769] (--) evdev: USB OPTICAL MOUSE: Found relative axes
+[    97.769] (--) evdev: USB OPTICAL MOUSE: Found x and y relative axes
+[    97.769] (II) evdev: USB OPTICAL MOUSE: Configuring as mouse
+[    97.769] (II) evdev: USB OPTICAL MOUSE: Adding scrollwheel support
+[    97.769] (**) evdev: USB OPTICAL MOUSE: YAxisMapping: buttons 4 and 5
+[    97.769] (**) evdev: USB OPTICAL MOUSE: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[    97.769] (**) Option "config_info" "hal:/org/freedesktop/Hal/devices/usb_device_101_7_noserial_if0_logicaldev_input"
+[    97.769] (II) XINPUT: Adding extended input device "USB OPTICAL MOUSE" (type: MOUSE, id 13)
+[    97.769] (II) evdev: USB OPTICAL MOUSE: initialized for relative axes.
+[    97.769] (**) USB OPTICAL MOUSE: (accel) keeping acceleration scheme 1
+[    97.769] (**) USB OPTICAL MOUSE: (accel) acceleration profile 0
+[    97.769] (**) USB OPTICAL MOUSE: (accel) acceleration factor: 2.000
+[    97.769] (**) USB OPTICAL MOUSE: (accel) acceleration threshold: 4
+[    97.772] AUDIT: Wed Oct 19 11:26:34 2022: 2947: client 1 connected from local host ( uid=0 gid=0 pid=2945 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[    97.835] (II) intel(0): EDID vendor "ACR", prod id 987
+[    97.835] (II) intel(0): Using hsync ranges from config file
+[    97.835] (II) intel(0): Using vrefresh ranges from config file
+[    97.835] (II) intel(0): Printing DDC gathered Modelines:
+[    97.835] (II) intel(0): Modeline "1366x768"x0.0   85.50  1366 1436 1579 1792  768 771 774 798 +hsync +vsync (47.7 kHz eP)
+[    97.835] (II) intel(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[    97.835] (II) intel(0): Modeline "800x600"x0.0   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz e)
+[    97.835] (II) intel(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[    97.835] (II) intel(0): Modeline "640x480"x0.0   31.50  640 664 704 832  480 489 492 520 -hsync -vsync (37.9 kHz e)
+[    97.835] (II) intel(0): Modeline "640x480"x0.0   30.24  640 704 768 864  480 483 486 525 -hsync -vsync (35.0 kHz e)
+[    97.835] (II) intel(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[    97.835] (II) intel(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[    97.835] (II) intel(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[    97.835] (II) intel(0): Modeline "1024x768"x0.0   75.00  1024 1048 1184 1328  768 771 777 806 -hsync -vsync (56.5 kHz e)
+[    97.835] (II) intel(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[    97.835] (II) intel(0): Modeline "832x624"x0.0   57.28  832 864 928 1152  624 625 628 667 -hsync -vsync (49.7 kHz e)
+[    97.836] (II) intel(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[    97.836] (II) intel(0): Modeline "800x600"x0.0   50.00  800 856 976 1040  600 637 643 666 +hsync +vsync (48.1 kHz e)
+[    97.836] (II) intel(0): Modeline "1280x720"x60.0   74.48  1280 1336 1472 1664  720 721 724 746 -hsync +vsync (44.8 kHz e)
+[    97.836] (II) intel(0): Modeline "1280x800"x0.0   83.50  1280 1352 1480 1680  800 803 809 831 -hsync +vsync (49.7 kHz e)
+[    97.836] (--) intel(0): HDMI max TMDS frequency 225000KHz
+[    97.853] AUDIT: Wed Oct 19 11:26:34 2022: 2947: client 2 connected from local host ( uid=0 gid=0 pid=2951 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[    97.854] AUDIT: Wed Oct 19 11:26:34 2022: 2947: client 2 disconnected
+[    97.859] AUDIT: Wed Oct 19 11:26:34 2022: 2947: client 2 connected from local host ( uid=0 gid=0 pid=2953 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[    97.864] AUDIT: Wed Oct 19 11:26:34 2022: 2947: client 2 disconnected
+[    97.867] AUDIT: Wed Oct 19 11:26:34 2022: 2947: client 2 connected from local host ( uid=0 gid=0 pid=2956 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[    97.868] AUDIT: Wed Oct 19 11:26:34 2022: 2947: client 2 disconnected
+[    97.878] AUDIT: Wed Oct 19 11:26:34 2022: 2947: client 2 connected from local host ( uid=0 gid=0 pid=2960 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[    97.891] AUDIT: Wed Oct 19 11:26:34 2022: 2947: client 3 connected from local host ( uid=0 gid=0 pid=2960 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[    97.892] AUDIT: Wed Oct 19 11:26:34 2022: 2947: client 4 connected from local host ( uid=0 gid=0 pid=2960 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[    97.894] AUDIT: Wed Oct 19 11:26:34 2022: 2947: client 5 connected from local host ( uid=0 gid=0 pid=2960 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[    97.895] AUDIT: Wed Oct 19 11:26:34 2022: 2947: client 6 connected from local host ( uid=0 gid=0 pid=2960 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[    97.898] AUDIT: Wed Oct 19 11:26:34 2022: 2947: client 7 connected from local host ( uid=0 gid=0 pid=2960 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[    97.938] AUDIT: Wed Oct 19 11:26:34 2022: 2947: client 8 connected from local host ( uid=42 gid=42 pid=2963 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[    97.942] AUDIT: Wed Oct 19 11:26:34 2022: 2947: client 2 disconnected
+[    97.944] AUDIT: Wed Oct 19 11:26:34 2022: 2947: client 7 disconnected
+[    97.944] AUDIT: Wed Oct 19 11:26:34 2022: 2947: client 5 disconnected
+[    97.944] AUDIT: Wed Oct 19 11:26:34 2022: 2947: client 6 disconnected
+[    97.944] AUDIT: Wed Oct 19 11:26:34 2022: 2947: client 4 disconnected
+[    97.944] AUDIT: Wed Oct 19 11:26:34 2022: 2947: client 3 disconnected
+[    97.950] AUDIT: Wed Oct 19 11:26:34 2022: 2947: client 2 connected from local host ( uid=42 gid=42 pid=2966 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[    97.968] AUDIT: Wed Oct 19 11:26:34 2022: 2947: client 3 connected from local host ( uid=42 gid=42 pid=2968 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[    98.119] AUDIT: Wed Oct 19 11:26:34 2022: 2947: client 4 connected from local host ( uid=42 gid=42 pid=2977 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[    98.121] AUDIT: Wed Oct 19 11:26:34 2022: 2947: client 5 connected from local host ( uid=42 gid=42 pid=2976 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[    98.204] (II) intel(0): EDID vendor "ACR", prod id 987
+[    98.204] (II) intel(0): Using hsync ranges from config file
+[    98.204] (II) intel(0): Using vrefresh ranges from config file
+[    98.204] (II) intel(0): Printing DDC gathered Modelines:
+[    98.204] (II) intel(0): Modeline "1366x768"x0.0   85.50  1366 1436 1579 1792  768 771 774 798 +hsync +vsync (47.7 kHz eP)
+[    98.204] (II) intel(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[    98.204] (II) intel(0): Modeline "800x600"x0.0   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz e)
+[    98.204] (II) intel(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[    98.204] (II) intel(0): Modeline "640x480"x0.0   31.50  640 664 704 832  480 489 492 520 -hsync -vsync (37.9 kHz e)
+[    98.204] (II) intel(0): Modeline "640x480"x0.0   30.24  640 704 768 864  480 483 486 525 -hsync -vsync (35.0 kHz e)
+[    98.204] (II) intel(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[    98.204] (II) intel(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[    98.204] (II) intel(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[    98.204] (II) intel(0): Modeline "1024x768"x0.0   75.00  1024 1048 1184 1328  768 771 777 806 -hsync -vsync (56.5 kHz e)
+[    98.204] (II) intel(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[    98.204] (II) intel(0): Modeline "832x624"x0.0   57.28  832 864 928 1152  624 625 628 667 -hsync -vsync (49.7 kHz e)
+[    98.205] (II) intel(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[    98.205] (II) intel(0): Modeline "800x600"x0.0   50.00  800 856 976 1040  600 637 643 666 +hsync +vsync (48.1 kHz e)
+[    98.205] (II) intel(0): Modeline "1280x720"x60.0   74.48  1280 1336 1472 1664  720 721 724 746 -hsync +vsync (44.8 kHz e)
+[    98.205] (II) intel(0): Modeline "1280x800"x0.0   83.50  1280 1352 1480 1680  800 803 809 831 -hsync +vsync (49.7 kHz e)
+[    98.205] (--) intel(0): HDMI max TMDS frequency 225000KHz
+[    98.269] (II) intel(0): EDID vendor "ACR", prod id 987
+[    98.269] (II) intel(0): Using hsync ranges from config file
+[    98.269] (II) intel(0): Using vrefresh ranges from config file
+[    98.269] (II) intel(0): Printing DDC gathered Modelines:
+[    98.269] (II) intel(0): Modeline "1366x768"x0.0   85.50  1366 1436 1579 1792  768 771 774 798 +hsync +vsync (47.7 kHz eP)
+[    98.269] (II) intel(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[    98.269] (II) intel(0): Modeline "800x600"x0.0   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz e)
+[    98.269] (II) intel(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[    98.269] (II) intel(0): Modeline "640x480"x0.0   31.50  640 664 704 832  480 489 492 520 -hsync -vsync (37.9 kHz e)
+[    98.269] (II) intel(0): Modeline "640x480"x0.0   30.24  640 704 768 864  480 483 486 525 -hsync -vsync (35.0 kHz e)
+[    98.269] (II) intel(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[    98.269] (II) intel(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[    98.269] (II) intel(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[    98.269] (II) intel(0): Modeline "1024x768"x0.0   75.00  1024 1048 1184 1328  768 771 777 806 -hsync -vsync (56.5 kHz e)
+[    98.269] (II) intel(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[    98.269] (II) intel(0): Modeline "832x624"x0.0   57.28  832 864 928 1152  624 625 628 667 -hsync -vsync (49.7 kHz e)
+[    98.270] (II) intel(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[    98.270] (II) intel(0): Modeline "800x600"x0.0   50.00  800 856 976 1040  600 637 643 666 +hsync +vsync (48.1 kHz e)
+[    98.270] (II) intel(0): Modeline "1280x720"x60.0   74.48  1280 1336 1472 1664  720 721 724 746 -hsync +vsync (44.8 kHz e)
+[    98.270] (II) intel(0): Modeline "1280x800"x0.0   83.50  1280 1352 1480 1680  800 803 809 831 -hsync +vsync (49.7 kHz e)
+[    98.270] (--) intel(0): HDMI max TMDS frequency 225000KHz
+[    98.337] (II) intel(0): EDID vendor "ACR", prod id 987
+[    98.337] (II) intel(0): Using hsync ranges from config file
+[    98.337] (II) intel(0): Using vrefresh ranges from config file
+[    98.337] (II) intel(0): Printing DDC gathered Modelines:
+[    98.337] (II) intel(0): Modeline "1366x768"x0.0   85.50  1366 1436 1579 1792  768 771 774 798 +hsync +vsync (47.7 kHz eP)
+[    98.337] (II) intel(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[    98.337] (II) intel(0): Modeline "800x600"x0.0   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz e)
+[    98.337] (II) intel(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[    98.337] (II) intel(0): Modeline "640x480"x0.0   31.50  640 664 704 832  480 489 492 520 -hsync -vsync (37.9 kHz e)
+[    98.337] (II) intel(0): Modeline "640x480"x0.0   30.24  640 704 768 864  480 483 486 525 -hsync -vsync (35.0 kHz e)
+[    98.337] (II) intel(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[    98.337] (II) intel(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[    98.337] (II) intel(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[    98.337] (II) intel(0): Modeline "1024x768"x0.0   75.00  1024 1048 1184 1328  768 771 777 806 -hsync -vsync (56.5 kHz e)
+[    98.337] (II) intel(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[    98.337] (II) intel(0): Modeline "832x624"x0.0   57.28  832 864 928 1152  624 625 628 667 -hsync -vsync (49.7 kHz e)
+[    98.337] (II) intel(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[    98.338] (II) intel(0): Modeline "800x600"x0.0   50.00  800 856 976 1040  600 637 643 666 +hsync +vsync (48.1 kHz e)
+[    98.338] (II) intel(0): Modeline "1280x720"x60.0   74.48  1280 1336 1472 1664  720 721 724 746 -hsync +vsync (44.8 kHz e)
+[    98.338] (II) intel(0): Modeline "1280x800"x0.0   83.50  1280 1352 1480 1680  800 803 809 831 -hsync +vsync (49.7 kHz e)
+[    98.338] (--) intel(0): HDMI max TMDS frequency 225000KHz
+[    98.348] AUDIT: Wed Oct 19 11:26:35 2022: 2947: client 6 connected from local host ( uid=42 gid=42 pid=2983 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[    98.349] AUDIT: Wed Oct 19 11:26:35 2022: 2947: client 6 disconnected
+[    98.416] AUDIT: Wed Oct 19 11:26:35 2022: 2947: client 6 connected from local host ( uid=42 gid=42 pid=2968 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[    98.416] AUDIT: Wed Oct 19 11:26:35 2022: 2947: client 7 connected from local host ( uid=42 gid=42 pid=2987 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[    98.418] AUDIT: Wed Oct 19 11:26:35 2022: 2947: client 9 connected from local host ( uid=42 gid=42 pid=2977 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[    98.442] AUDIT: Wed Oct 19 11:26:35 2022: 2947: client 10 connected from local host ( uid=42 gid=42 pid=2987 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[    98.509] AUDIT: Wed Oct 19 11:26:35 2022: 2947: client 11 connected from local host ( uid=42 gid=42 pid=2989 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[    98.516] AUDIT: Wed Oct 19 11:26:35 2022: 2947: client 12 connected from local host ( uid=42 gid=42 pid=2988 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[    98.526] AUDIT: Wed Oct 19 11:26:35 2022: 2947: client 13 connected from local host ( uid=42 gid=42 pid=2990 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[    98.536] AUDIT: Wed Oct 19 11:26:35 2022: 2947: client 14 connected from local host ( uid=42 gid=42 pid=2991 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[    98.539] AUDIT: Wed Oct 19 11:26:35 2022: 2947: client 15 connected from local host ( uid=42 gid=42 pid=2992 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[    98.545] AUDIT: Wed Oct 19 11:26:35 2022: 2947: client 16 connected from local host ( uid=42 gid=42 pid=2989 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[    98.552] AUDIT: Wed Oct 19 11:26:35 2022: 2947: client 17 connected from local host ( uid=42 gid=42 pid=2988 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[    98.575] AUDIT: Wed Oct 19 11:26:35 2022: 2947: client 18 connected from local host ( uid=42 gid=42 pid=2991 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[    98.587] AUDIT: Wed Oct 19 11:26:35 2022: 2947: client 19 connected from local host ( uid=42 gid=42 pid=2977 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[    98.593] AUDIT: Wed Oct 19 11:26:35 2022: 2947: client 19 disconnected
+[    98.599] AUDIT: Wed Oct 19 11:26:35 2022: 2947: client 20 connected from local host ( uid=42 gid=42 pid=2992 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[    98.602] AUDIT: Wed Oct 19 11:26:35 2022: 2947: client 21 connected from local host ( uid=42 gid=42 pid=2990 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[    98.610] AUDIT: Wed Oct 19 11:26:35 2022: 2947: client 22 connected from local host ( uid=42 gid=42 pid=2992 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[    98.612] AUDIT: Wed Oct 19 11:26:35 2022: 2947: client 22 disconnected
+[    98.622] AUDIT: Wed Oct 19 11:26:35 2022: 2947: client 20 disconnected
+[    98.624] AUDIT: Wed Oct 19 11:26:35 2022: 2947: client 15 disconnected
+[    98.664] AUDIT: Wed Oct 19 11:26:35 2022: 2947: client 15 connected from local host ( uid=42 gid=42 pid=2996 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[    98.690] AUDIT: Wed Oct 19 11:26:35 2022: 2947: client 20 connected from local host ( uid=42 gid=42 pid=2996 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[    99.122] AUDIT: Wed Oct 19 11:26:35 2022: 2947: client 22 connected from local host ( uid=0 gid=0 pid=2945 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   105.583] AUDIT: Wed Oct 19 11:26:42 2022: 2947: client 23 connected from local host ( uid=0 gid=0 pid=3117 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   105.584] AUDIT: Wed Oct 19 11:26:42 2022: 2947: client 23 disconnected
+[   105.587] AUDIT: Wed Oct 19 11:26:42 2022: 2947: client 23 connected from local host ( uid=0 gid=0 pid=3118 )
+[   105.589] AUDIT: Wed Oct 19 11:26:42 2022: 2947: client 23 disconnected
+[   105.592] AUDIT: Wed Oct 19 11:26:42 2022: 2947: client 23 connected from local host ( uid=0 gid=0 pid=3120 )
+[   105.593] AUDIT: Wed Oct 19 11:26:42 2022: 2947: client 23 disconnected
+[   105.597] AUDIT: Wed Oct 19 11:26:42 2022: 2947: client 23 connected from local host ( uid=0 gid=0 pid=3122 )
+[   105.598] AUDIT: Wed Oct 19 11:26:42 2022: 2947: client 23 disconnected
+[   105.651] AUDIT: Wed Oct 19 11:26:42 2022: 2947: client 23 connected from local host ( uid=0 gid=0 pid=3006 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   105.665] AUDIT: Wed Oct 19 11:26:42 2022: 2947: client 24 connected from local host ( uid=0 gid=0 pid=3006 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   105.666] AUDIT: Wed Oct 19 11:26:42 2022: 2947: client 25 connected from local host ( uid=0 gid=0 pid=3006 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   105.667] AUDIT: Wed Oct 19 11:26:42 2022: 2947: client 26 connected from local host ( uid=0 gid=0 pid=3006 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   105.667] AUDIT: Wed Oct 19 11:26:42 2022: 2947: client 27 connected from local host ( uid=0 gid=0 pid=3006 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   105.669] AUDIT: Wed Oct 19 11:26:42 2022: 2947: client 28 connected from local host ( uid=0 gid=0 pid=3006 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   109.276] AUDIT: Wed Oct 19 11:26:46 2022: 2947: client 28 disconnected
+[   109.280] AUDIT: Wed Oct 19 11:26:46 2022: 2947: client 26 disconnected
+[   109.281] AUDIT: Wed Oct 19 11:26:46 2022: 2947: client 27 disconnected
+[   109.281] AUDIT: Wed Oct 19 11:26:46 2022: 2947: client 25 disconnected
+[   109.281] AUDIT: Wed Oct 19 11:26:46 2022: 2947: client 24 disconnected
+[   109.281] AUDIT: Wed Oct 19 11:26:46 2022: 2947: client 23 disconnected
+[   113.470] AUDIT: Wed Oct 19 11:26:50 2022: 2947: client 23 connected from local host ( uid=0 gid=0 pid=3279 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   113.471] AUDIT: Wed Oct 19 11:26:50 2022: 2947: client 23 disconnected
+[   113.474] AUDIT: Wed Oct 19 11:26:50 2022: 2947: client 23 connected from local host ( uid=0 gid=0 pid=3280 )
+[   113.475] AUDIT: Wed Oct 19 11:26:50 2022: 2947: client 23 disconnected
+[   113.478] AUDIT: Wed Oct 19 11:26:50 2022: 2947: client 23 connected from local host ( uid=0 gid=0 pid=3282 )
+[   113.480] AUDIT: Wed Oct 19 11:26:50 2022: 2947: client 23 disconnected
+[   113.484] AUDIT: Wed Oct 19 11:26:50 2022: 2947: client 23 connected from local host ( uid=0 gid=0 pid=3284 )
+[   113.485] AUDIT: Wed Oct 19 11:26:50 2022: 2947: client 23 disconnected
+[   113.539] AUDIT: Wed Oct 19 11:26:50 2022: 2947: client 23 connected from local host ( uid=0 gid=0 pid=3168 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   113.554] AUDIT: Wed Oct 19 11:26:50 2022: 2947: client 24 connected from local host ( uid=0 gid=0 pid=3168 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   113.554] AUDIT: Wed Oct 19 11:26:50 2022: 2947: client 25 connected from local host ( uid=0 gid=0 pid=3168 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   113.555] AUDIT: Wed Oct 19 11:26:50 2022: 2947: client 26 connected from local host ( uid=0 gid=0 pid=3168 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   113.556] AUDIT: Wed Oct 19 11:26:50 2022: 2947: client 27 connected from local host ( uid=0 gid=0 pid=3168 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   113.558] AUDIT: Wed Oct 19 11:26:50 2022: 2947: client 28 connected from local host ( uid=0 gid=0 pid=3168 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   123.284] AUDIT: Wed Oct 19 11:27:00 2022: 2947: client 29 connected from local host ( uid=42 gid=42 pid=2987 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   123.285] AUDIT: Wed Oct 19 11:27:00 2022: 2947: client 29 disconnected
+[   126.358] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 29 connected from local host ( uid=0 gid=0 pid=3334 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   126.366] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 29 disconnected
+[   126.372] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 14 disconnected
+[   126.375] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 5 disconnected
+[   126.378] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 11 disconnected
+[   126.379] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 13 disconnected
+[   126.380] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 21 disconnected
+[   126.380] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 18 disconnected
+[   126.380] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 16 disconnected
+[   126.382] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 10 disconnected
+[   126.383] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 12 disconnected
+[   126.385] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 7 disconnected
+[   126.386] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 17 disconnected
+[   126.399] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 6 disconnected
+[   126.401] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 3 disconnected
+[   126.451] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 20 disconnected
+[   126.451] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 15 disconnected
+[   126.476] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 4 disconnected
+[   126.476] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 9 disconnected
+[   126.566] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 3 connected from local host ( uid=0 gid=0 pid=3342 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   126.568] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 3 disconnected
+[   126.589] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 3 connected from local host ( uid=0 gid=0 pid=3346 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   126.590] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 3 disconnected
+[   126.593] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 3 connected from local host ( uid=0 gid=0 pid=3347 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   126.593] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 3 disconnected
+[   126.596] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 3 connected from local host ( uid=0 gid=0 pid=3349 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   126.604] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 4 connected from local host ( uid=0 gid=0 pid=3352 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   126.609] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 5 connected from local host ( uid=0 gid=0 pid=3356 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   126.610] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 5 disconnected
+[   126.617] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 5 connected from local host ( uid=0 gid=0 pid=3358 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   126.621] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 5 disconnected
+[   126.659] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 5 connected from local host ( uid=0 gid=0 pid=3369 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   126.660] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 5 disconnected
+[   126.662] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 5 connected from local host ( uid=0 gid=0 pid=3370 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   126.663] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 5 disconnected
+[   126.766] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 5 connected from local host ( uid=0 gid=0 pid=3378 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   126.775] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 5 disconnected
+[   126.784] AUDIT: Wed Oct 19 11:27:03 2022: 2947: client 5 connected from local host ( uid=0 gid=0 pid=3380 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   127.355] AUDIT: Wed Oct 19 11:27:04 2022: 2947: client 6 connected from local host ( uid=0 gid=0 pid=3393 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   127.360] AUDIT: Wed Oct 19 11:27:04 2022: 2947: client 6 disconnected
+[   127.395] AUDIT: Wed Oct 19 11:27:04 2022: 2947: client 6 connected from local host ( uid=0 gid=0 pid=3399 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   127.400] AUDIT: Wed Oct 19 11:27:04 2022: 2947: client 6 disconnected
+[   127.403] AUDIT: Wed Oct 19 11:27:04 2022: 2947: client 6 connected from local host ( uid=0 gid=0 pid=3400 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   127.404] AUDIT: Wed Oct 19 11:27:04 2022: 2947: client 6 disconnected
+[   127.561] AUDIT: Wed Oct 19 11:27:04 2022: 2947: client 6 connected from local host ( uid=0 gid=0 pid=3403 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   127.592] AUDIT: Wed Oct 19 11:27:04 2022: 2947: client 7 connected from local host ( uid=0 gid=0 pid=3406 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   127.723] AUDIT: Wed Oct 19 11:27:04 2022: 2947: client 9 connected from local host ( uid=0 gid=0 pid=3403 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   127.729] AUDIT: Wed Oct 19 11:27:04 2022: 2947: client 9 disconnected
+[   128.114] AUDIT: Wed Oct 19 11:27:04 2022: 2947: client 9 connected from local host ( uid=0 gid=0 pid=3404 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   128.116] AUDIT: Wed Oct 19 11:27:04 2022: 2947: client 10 connected from local host ( uid=0 gid=0 pid=3403 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   128.122] AUDIT: Wed Oct 19 11:27:04 2022: 2947: client 10 disconnected
+[   128.126] AUDIT: Wed Oct 19 11:27:04 2022: 2947: client 10 connected from local host ( uid=0 gid=0 pid=3431 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   128.128] AUDIT: Wed Oct 19 11:27:04 2022: 2947: client 10 disconnected
+[   128.140] AUDIT: Wed Oct 19 11:27:04 2022: 2947: client 10 connected from local host ( uid=0 gid=0 pid=3431 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   128.228] AUDIT: Wed Oct 19 11:27:05 2022: 2947: client 11 connected from local host ( uid=0 gid=0 pid=3433 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   128.293] AUDIT: Wed Oct 19 11:27:05 2022: 2947: client 12 connected from local host ( uid=0 gid=0 pid=3403 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   128.307] AUDIT: Wed Oct 19 11:27:05 2022: 2947: client 12 disconnected
+[   128.307] AUDIT: Wed Oct 19 11:27:05 2022: 2947: client 12 connected from local host ( uid=0 gid=0 pid=3435 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   128.438] AUDIT: Wed Oct 19 11:27:05 2022: 2947: client 13 connected from local host ( uid=0 gid=0 pid=3437 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   128.772] (II) intel(0): EDID vendor "ACR", prod id 987
+[   128.772] (II) intel(0): Using hsync ranges from config file
+[   128.772] (II) intel(0): Using vrefresh ranges from config file
+[   128.772] (II) intel(0): Printing DDC gathered Modelines:
+[   128.772] (II) intel(0): Modeline "1366x768"x0.0   85.50  1366 1436 1579 1792  768 771 774 798 +hsync +vsync (47.7 kHz eP)
+[   128.772] (II) intel(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[   128.772] (II) intel(0): Modeline "800x600"x0.0   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz e)
+[   128.772] (II) intel(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[   128.772] (II) intel(0): Modeline "640x480"x0.0   31.50  640 664 704 832  480 489 492 520 -hsync -vsync (37.9 kHz e)
+[   128.772] (II) intel(0): Modeline "640x480"x0.0   30.24  640 704 768 864  480 483 486 525 -hsync -vsync (35.0 kHz e)
+[   128.772] (II) intel(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[   128.772] (II) intel(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[   128.772] (II) intel(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[   128.772] (II) intel(0): Modeline "1024x768"x0.0   75.00  1024 1048 1184 1328  768 771 777 806 -hsync -vsync (56.5 kHz e)
+[   128.772] (II) intel(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[   128.772] (II) intel(0): Modeline "832x624"x0.0   57.28  832 864 928 1152  624 625 628 667 -hsync -vsync (49.7 kHz e)
+[   128.772] (II) intel(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[   128.773] (II) intel(0): Modeline "800x600"x0.0   50.00  800 856 976 1040  600 637 643 666 +hsync +vsync (48.1 kHz e)
+[   128.773] (II) intel(0): Modeline "1280x720"x60.0   74.48  1280 1336 1472 1664  720 721 724 746 -hsync +vsync (44.8 kHz e)
+[   128.773] (II) intel(0): Modeline "1280x800"x0.0   83.50  1280 1352 1480 1680  800 803 809 831 -hsync +vsync (49.7 kHz e)
+[   128.773] (--) intel(0): HDMI max TMDS frequency 225000KHz
+[   129.080] AUDIT: Wed Oct 19 11:27:05 2022: 2947: client 14 connected from local host ( uid=0 gid=0 pid=3404 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   129.081] AUDIT: Wed Oct 19 11:27:05 2022: 2947: client 9 disconnected
+[   129.083] AUDIT: Wed Oct 19 11:27:05 2022: 2947: client 9 connected from local host ( uid=0 gid=0 pid=3403 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   129.087] AUDIT: Wed Oct 19 11:27:05 2022: 2947: client 9 disconnected
+[   129.111] AUDIT: Wed Oct 19 11:27:05 2022: 2947: client 9 connected from local host ( uid=0 gid=0 pid=3441 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   129.112] AUDIT: Wed Oct 19 11:27:05 2022: 2947: client 9 disconnected
+[   129.116] AUDIT: Wed Oct 19 11:27:05 2022: 2947: client 9 connected from local host ( uid=0 gid=0 pid=3440 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   129.128] AUDIT: Wed Oct 19 11:27:05 2022: 2947: client 15 connected from local host ( uid=0 gid=0 pid=3441 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   130.263] AUDIT: Wed Oct 19 11:27:07 2022: 2947: client 16 connected from local host ( uid=0 gid=0 pid=3461 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   130.277] AUDIT: Wed Oct 19 11:27:07 2022: 2947: client 17 connected from local host ( uid=0 gid=0 pid=3463 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   130.278] AUDIT: Wed Oct 19 11:27:07 2022: 2947: client 17 disconnected
+[   130.282] AUDIT: Wed Oct 19 11:27:07 2022: 2947: client 17 connected from local host ( uid=0 gid=0 pid=3464 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   130.300] AUDIT: Wed Oct 19 11:27:07 2022: 2947: client 17 disconnected
+[   130.419] AUDIT: Wed Oct 19 11:27:07 2022: 2947: client 17 connected from local host ( uid=0 gid=0 pid=3467 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   130.447] AUDIT: Wed Oct 19 11:27:07 2022: 2947: client 18 connected from local host ( uid=0 gid=0 pid=3470 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   130.508] AUDIT: Wed Oct 19 11:27:07 2022: 2947: client 20 connected from local host ( uid=0 gid=0 pid=3472 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   130.509] AUDIT: Wed Oct 19 11:27:07 2022: 2947: client 20 disconnected
+[   130.522] AUDIT: Wed Oct 19 11:27:07 2022: 2947: client 20 connected from local host ( uid=0 gid=0 pid=3472 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   130.609] AUDIT: Wed Oct 19 11:27:07 2022: 2947: client 21 connected from local host ( uid=0 gid=0 pid=3474 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   130.756] (II) intel(0): EDID vendor "ACR", prod id 987
+[   130.756] (II) intel(0): Using hsync ranges from config file
+[   130.756] (II) intel(0): Using vrefresh ranges from config file
+[   130.756] (II) intel(0): Printing DDC gathered Modelines:
+[   130.757] (II) intel(0): Modeline "1366x768"x0.0   85.50  1366 1436 1579 1792  768 771 774 798 +hsync +vsync (47.7 kHz eP)
+[   130.757] (II) intel(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[   130.757] (II) intel(0): Modeline "800x600"x0.0   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz e)
+[   130.757] (II) intel(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[   130.757] (II) intel(0): Modeline "640x480"x0.0   31.50  640 664 704 832  480 489 492 520 -hsync -vsync (37.9 kHz e)
+[   130.757] (II) intel(0): Modeline "640x480"x0.0   30.24  640 704 768 864  480 483 486 525 -hsync -vsync (35.0 kHz e)
+[   130.757] (II) intel(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[   130.757] (II) intel(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[   130.757] (II) intel(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[   130.757] (II) intel(0): Modeline "1024x768"x0.0   75.00  1024 1048 1184 1328  768 771 777 806 -hsync -vsync (56.5 kHz e)
+[   130.757] (II) intel(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[   130.757] (II) intel(0): Modeline "832x624"x0.0   57.28  832 864 928 1152  624 625 628 667 -hsync -vsync (49.7 kHz e)
+[   130.757] (II) intel(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[   130.757] (II) intel(0): Modeline "800x600"x0.0   50.00  800 856 976 1040  600 637 643 666 +hsync +vsync (48.1 kHz e)
+[   130.758] (II) intel(0): Modeline "1280x720"x60.0   74.48  1280 1336 1472 1664  720 721 724 746 -hsync +vsync (44.8 kHz e)
+[   130.758] (II) intel(0): Modeline "1280x800"x0.0   83.50  1280 1352 1480 1680  800 803 809 831 -hsync +vsync (49.7 kHz e)
+[   130.758] (--) intel(0): HDMI max TMDS frequency 225000KHz
+[   130.899] AUDIT: Wed Oct 19 11:27:07 2022: 2947: client 30 connected from local host ( uid=0 gid=0 pid=3482 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   130.912] AUDIT: Wed Oct 19 11:27:07 2022: 2947: client 29 connected from local host ( uid=0 gid=0 pid=3481 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   130.958] AUDIT: Wed Oct 19 11:27:07 2022: 2947: client 32 connected from local host ( uid=0 gid=0 pid=3497 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   130.963] AUDIT: Wed Oct 19 11:27:07 2022: 2947: client 31 connected from local host ( uid=0 gid=0 pid=3492 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   131.076] AUDIT: Wed Oct 19 11:27:07 2022: 2947: client 33 connected from local host ( uid=0 gid=0 pid=3505 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   131.231] AUDIT: Wed Oct 19 11:27:08 2022: 2947: client 5 disconnected
+[   131.271] AUDIT: Wed Oct 19 11:27:08 2022: 2947: client 11 disconnected
+[   131.330] (II) intel(0): EDID vendor "ACR", prod id 987
+[   131.330] (II) intel(0): Using hsync ranges from config file
+[   131.330] (II) intel(0): Using vrefresh ranges from config file
+[   131.330] (II) intel(0): Printing DDC gathered Modelines:
+[   131.330] (II) intel(0): Modeline "1366x768"x0.0   85.50  1366 1436 1579 1792  768 771 774 798 +hsync +vsync (47.7 kHz eP)
+[   131.330] (II) intel(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[   131.330] (II) intel(0): Modeline "800x600"x0.0   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz e)
+[   131.330] (II) intel(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[   131.330] (II) intel(0): Modeline "640x480"x0.0   31.50  640 664 704 832  480 489 492 520 -hsync -vsync (37.9 kHz e)
+[   131.330] (II) intel(0): Modeline "640x480"x0.0   30.24  640 704 768 864  480 483 486 525 -hsync -vsync (35.0 kHz e)
+[   131.330] (II) intel(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[   131.330] (II) intel(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[   131.330] (II) intel(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[   131.330] (II) intel(0): Modeline "1024x768"x0.0   75.00  1024 1048 1184 1328  768 771 777 806 -hsync -vsync (56.5 kHz e)
+[   131.330] (II) intel(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[   131.331] (II) intel(0): Modeline "832x624"x0.0   57.28  832 864 928 1152  624 625 628 667 -hsync -vsync (49.7 kHz e)
+[   131.331] (II) intel(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[   131.331] (II) intel(0): Modeline "800x600"x0.0   50.00  800 856 976 1040  600 637 643 666 +hsync +vsync (48.1 kHz e)
+[   131.331] (II) intel(0): Modeline "1280x720"x60.0   74.48  1280 1336 1472 1664  720 721 724 746 -hsync +vsync (44.8 kHz e)
+[   131.331] (II) intel(0): Modeline "1280x800"x0.0   83.50  1280 1352 1480 1680  800 803 809 831 -hsync +vsync (49.7 kHz e)
+[   131.331] (--) intel(0): HDMI max TMDS frequency 225000KHz
+[   131.339] AUDIT: Wed Oct 19 11:27:08 2022: 2947: client 33 disconnected
+[   131.346] AUDIT: Wed Oct 19 11:27:08 2022: 2947: client 5 connected from local host ( uid=0 gid=0 pid=3488 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   131.423] (II) intel(0): EDID vendor "ACR", prod id 987
+[   131.423] (II) intel(0): Using hsync ranges from config file
+[   131.423] (II) intel(0): Using vrefresh ranges from config file
+[   131.423] (II) intel(0): Printing DDC gathered Modelines:
+[   131.423] (II) intel(0): Modeline "1366x768"x0.0   85.50  1366 1436 1579 1792  768 771 774 798 +hsync +vsync (47.7 kHz eP)
+[   131.423] (II) intel(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[   131.423] (II) intel(0): Modeline "800x600"x0.0   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz e)
+[   131.423] (II) intel(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[   131.423] (II) intel(0): Modeline "640x480"x0.0   31.50  640 664 704 832  480 489 492 520 -hsync -vsync (37.9 kHz e)
+[   131.423] (II) intel(0): Modeline "640x480"x0.0   30.24  640 704 768 864  480 483 486 525 -hsync -vsync (35.0 kHz e)
+[   131.423] (II) intel(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[   131.423] (II) intel(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[   131.424] (II) intel(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[   131.424] (II) intel(0): Modeline "1024x768"x0.0   75.00  1024 1048 1184 1328  768 771 777 806 -hsync -vsync (56.5 kHz e)
+[   131.424] (II) intel(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[   131.424] (II) intel(0): Modeline "832x624"x0.0   57.28  832 864 928 1152  624 625 628 667 -hsync -vsync (49.7 kHz e)
+[   131.424] (II) intel(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[   131.424] (II) intel(0): Modeline "800x600"x0.0   50.00  800 856 976 1040  600 637 643 666 +hsync +vsync (48.1 kHz e)
+[   131.424] (II) intel(0): Modeline "1280x720"x60.0   74.48  1280 1336 1472 1664  720 721 724 746 -hsync +vsync (44.8 kHz e)
+[   131.424] (II) intel(0): Modeline "1280x800"x0.0   83.50  1280 1352 1480 1680  800 803 809 831 -hsync +vsync (49.7 kHz e)
+[   131.424] (--) intel(0): HDMI max TMDS frequency 225000KHz
+[   131.427] AUDIT: Wed Oct 19 11:27:08 2022: 2947: client 11 connected from local host ( uid=0 gid=0 pid=3507 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   131.446] AUDIT: Wed Oct 19 11:27:08 2022: 2947: client 11 disconnected
+[   131.461] AUDIT: Wed Oct 19 11:27:08 2022: 2947: client 11 connected from local host ( uid=0 gid=0 pid=3514 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   131.467] AUDIT: Wed Oct 19 11:27:08 2022: 2947: client 11 disconnected
+[   131.472] AUDIT: Wed Oct 19 11:27:08 2022: 2947: client 11 connected from local host ( uid=0 gid=0 pid=3406 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   131.473] AUDIT: Wed Oct 19 11:27:08 2022: 2947: client 11 disconnected
+[   131.514] AUDIT: Wed Oct 19 11:27:08 2022: 2947: client 11 connected from local host ( uid=0 gid=0 pid=3406 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   131.516] AUDIT: Wed Oct 19 11:27:08 2022: 2947: client 11 disconnected
+[   131.518] AUDIT: Wed Oct 19 11:27:08 2022: 2947: client 11 connected from local host ( uid=0 gid=0 pid=3406 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   131.520] AUDIT: Wed Oct 19 11:27:08 2022: 2947: client 11 disconnected
+[   131.550] (II) intel(0): Allocated new frame buffer 1024x768 stride 4096, tiled
+[   131.648] (II) intel(0): EDID vendor "ACR", prod id 987
+[   131.648] (II) intel(0): Using hsync ranges from config file
+[   131.648] (II) intel(0): Using vrefresh ranges from config file
+[   131.648] (II) intel(0): Printing DDC gathered Modelines:
+[   131.648] (II) intel(0): Modeline "1366x768"x0.0   85.50  1366 1436 1579 1792  768 771 774 798 +hsync +vsync (47.7 kHz eP)
+[   131.648] (II) intel(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[   131.648] (II) intel(0): Modeline "800x600"x0.0   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz e)
+[   131.648] (II) intel(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[   131.648] (II) intel(0): Modeline "640x480"x0.0   31.50  640 664 704 832  480 489 492 520 -hsync -vsync (37.9 kHz e)
+[   131.648] (II) intel(0): Modeline "640x480"x0.0   30.24  640 704 768 864  480 483 486 525 -hsync -vsync (35.0 kHz e)
+[   131.648] (II) intel(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[   131.648] (II) intel(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[   131.649] (II) intel(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[   131.649] (II) intel(0): Modeline "1024x768"x0.0   75.00  1024 1048 1184 1328  768 771 777 806 -hsync -vsync (56.5 kHz e)
+[   131.649] (II) intel(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[   131.649] (II) intel(0): Modeline "832x624"x0.0   57.28  832 864 928 1152  624 625 628 667 -hsync -vsync (49.7 kHz e)
+[   131.649] (II) intel(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[   131.649] (II) intel(0): Modeline "800x600"x0.0   50.00  800 856 976 1040  600 637 643 666 +hsync +vsync (48.1 kHz e)
+[   131.649] (II) intel(0): Modeline "1280x720"x60.0   74.48  1280 1336 1472 1664  720 721 724 746 -hsync +vsync (44.8 kHz e)
+[   131.649] (II) intel(0): Modeline "1280x800"x0.0   83.50  1280 1352 1480 1680  800 803 809 831 -hsync +vsync (49.7 kHz e)
+[   131.649] (--) intel(0): HDMI max TMDS frequency 225000KHz
+[   131.715] (II) intel(0): EDID vendor "ACR", prod id 987
+[   131.715] (II) intel(0): Using hsync ranges from config file
+[   131.715] (II) intel(0): Using vrefresh ranges from config file
+[   131.715] (II) intel(0): Printing DDC gathered Modelines:
+[   131.715] (II) intel(0): Modeline "1366x768"x0.0   85.50  1366 1436 1579 1792  768 771 774 798 +hsync +vsync (47.7 kHz eP)
+[   131.715] (II) intel(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[   131.715] (II) intel(0): Modeline "800x600"x0.0   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz e)
+[   131.715] (II) intel(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[   131.715] (II) intel(0): Modeline "640x480"x0.0   31.50  640 664 704 832  480 489 492 520 -hsync -vsync (37.9 kHz e)
+[   131.715] (II) intel(0): Modeline "640x480"x0.0   30.24  640 704 768 864  480 483 486 525 -hsync -vsync (35.0 kHz e)
+[   131.715] (II) intel(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[   131.715] (II) intel(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[   131.715] (II) intel(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[   131.715] (II) intel(0): Modeline "1024x768"x0.0   75.00  1024 1048 1184 1328  768 771 777 806 -hsync -vsync (56.5 kHz e)
+[   131.715] (II) intel(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[   131.715] (II) intel(0): Modeline "832x624"x0.0   57.28  832 864 928 1152  624 625 628 667 -hsync -vsync (49.7 kHz e)
+[   131.715] (II) intel(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[   131.716] (II) intel(0): Modeline "800x600"x0.0   50.00  800 856 976 1040  600 637 643 666 +hsync +vsync (48.1 kHz e)
+[   131.716] (II) intel(0): Modeline "1280x720"x60.0   74.48  1280 1336 1472 1664  720 721 724 746 -hsync +vsync (44.8 kHz e)
+[   131.716] (II) intel(0): Modeline "1280x800"x0.0   83.50  1280 1352 1480 1680  800 803 809 831 -hsync +vsync (49.7 kHz e)
+[   131.716] (--) intel(0): HDMI max TMDS frequency 225000KHz
+[   131.717] AUDIT: Wed Oct 19 11:27:08 2022: 2947: client 11 connected from local host ( uid=0 gid=0 pid=3441 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   131.736] AUDIT: Wed Oct 19 11:27:08 2022: 2947: client 28 disconnected
+[   131.736] AUDIT: Wed Oct 19 11:27:08 2022: 2947: client 26 disconnected
+[   131.736] AUDIT: Wed Oct 19 11:27:08 2022: 2947: client 27 disconnected
+[   131.736] AUDIT: Wed Oct 19 11:27:08 2022: 2947: client 25 disconnected
+[   131.736] AUDIT: Wed Oct 19 11:27:08 2022: 2947: client 24 disconnected
+[   131.738] AUDIT: Wed Oct 19 11:27:08 2022: 2947: client 11 disconnected
+[   131.738] AUDIT: Wed Oct 19 11:27:08 2022: 2947: client 23 disconnected
+[   131.749] AUDIT: Wed Oct 19 11:27:08 2022: 2947: client 11 connected from local host ( uid=0 gid=0 pid=3441 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   131.753] AUDIT: Wed Oct 19 11:27:08 2022: 2947: client 11 disconnected
+[   131.856] AUDIT: Wed Oct 19 11:27:08 2022: 2947: client 11 connected from local host ( uid=0 gid=0 pid=3441 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   131.857] AUDIT: Wed Oct 19 11:27:08 2022: 2947: client 11 disconnected
+[   135.989] AUDIT: Wed Oct 19 11:27:12 2022: 2947: client 11 connected from local host ( uid=0 gid=0 pid=3704 )
+[   135.991] AUDIT: Wed Oct 19 11:27:12 2022: 2947: client 11 disconnected
+[   135.994] AUDIT: Wed Oct 19 11:27:12 2022: 2947: client 11 connected from local host ( uid=0 gid=0 pid=3705 )
+[   135.995] AUDIT: Wed Oct 19 11:27:12 2022: 2947: client 11 disconnected
+[   136.052] AUDIT: Wed Oct 19 11:27:12 2022: 2947: client 11 connected from local host ( uid=0 gid=0 pid=3537 )
+[   136.067] AUDIT: Wed Oct 19 11:27:12 2022: 2947: client 23 connected from local host ( uid=0 gid=0 pid=3537 )
+[   136.067] AUDIT: Wed Oct 19 11:27:12 2022: 2947: client 24 connected from local host ( uid=0 gid=0 pid=3537 )
+[   136.068] AUDIT: Wed Oct 19 11:27:12 2022: 2947: client 25 connected from local host ( uid=0 gid=0 pid=3537 )
+[   136.069] AUDIT: Wed Oct 19 11:27:12 2022: 2947: client 26 connected from local host ( uid=0 gid=0 pid=3537 )
+[   136.071] AUDIT: Wed Oct 19 11:27:12 2022: 2947: client 27 connected from local host ( uid=0 gid=0 pid=3537 )
+[   141.804] AUDIT: Wed Oct 19 11:27:18 2022: 2947: client 28 connected from local host ( uid=0 gid=0 pid=3764 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 195
+[   142.064] (II) intel(0): EDID vendor "ACR", prod id 987
+[   142.064] (II) intel(0): Using hsync ranges from config file
+[   142.064] (II) intel(0): Using vrefresh ranges from config file
+[   142.064] (II) intel(0): Printing DDC gathered Modelines:
+[   142.064] (II) intel(0): Modeline "1366x768"x0.0   85.50  1366 1436 1579 1792  768 771 774 798 +hsync +vsync (47.7 kHz eP)
+[   142.064] (II) intel(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[   142.064] (II) intel(0): Modeline "800x600"x0.0   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz e)
+[   142.064] (II) intel(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[   142.064] (II) intel(0): Modeline "640x480"x0.0   31.50  640 664 704 832  480 489 492 520 -hsync -vsync (37.9 kHz e)
+[   142.064] (II) intel(0): Modeline "640x480"x0.0   30.24  640 704 768 864  480 483 486 525 -hsync -vsync (35.0 kHz e)
+[   142.064] (II) intel(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[   142.064] (II) intel(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[   142.064] (II) intel(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[   142.064] (II) intel(0): Modeline "1024x768"x0.0   75.00  1024 1048 1184 1328  768 771 777 806 -hsync -vsync (56.5 kHz e)
+[   142.064] (II) intel(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[   142.064] (II) intel(0): Modeline "832x624"x0.0   57.28  832 864 928 1152  624 625 628 667 -hsync -vsync (49.7 kHz e)
+[   142.065] (II) intel(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[   142.065] (II) intel(0): Modeline "800x600"x0.0   50.00  800 856 976 1040  600 637 643 666 +hsync +vsync (48.1 kHz e)
+[   142.065] (II) intel(0): Modeline "1280x720"x60.0   74.48  1280 1336 1472 1664  720 721 724 746 -hsync +vsync (44.8 kHz e)
+[   142.065] (II) intel(0): Modeline "1280x800"x0.0   83.50  1280 1352 1480 1680  800 803 809 831 -hsync +vsync (49.7 kHz e)
+[   142.065] (--) intel(0): HDMI max TMDS frequency 225000KHz
+[   142.073] AUDIT: Wed Oct 19 11:27:18 2022: 2947: client 28 disconnected
+[   199.650] AUDIT: Wed Oct 19 11:28:16 2022: 2947: client 24 disconnected
+[   199.650] AUDIT: Wed Oct 19 11:28:16 2022: 2947: client 23 disconnected
+[   199.650] AUDIT: Wed Oct 19 11:28:16 2022: 2947: client 23 connected from local host ( uid=0 gid=0 pid=3537 )
+[   199.651] AUDIT: Wed Oct 19 11:28:16 2022: 2947: client 24 connected from local host ( uid=0 gid=0 pid=3537 )
