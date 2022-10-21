@@ -1,0 +1,326 @@
+Fri Oct 21 12:11:46 2022
+Starting ORACLE instance (normal)
+Cannot determine all dependent dynamic libraries for /proc/self/exe
+Unable to find dynamic library libocr10.so in search paths
+RPATH = /ade/aime1_build2101/oracle/has/lib/:/ade/aime1_build2101/oracle/lib/:/ade/aime1_build2101/oracle/has/lib/:
+LD_LIBRARY_PATH is not set!
+The default library directories are /lib and /usr/lib
+Unable to find dynamic library libocrb10.so in search paths
+Unable to find dynamic library libocrutl10.so in search paths
+Unable to find dynamic library libocrutl10.so in search paths
+LICENSE_MAX_SESSION = 0
+LICENSE_SESSIONS_WARNING = 0
+Picked latch-free SCN scheme 2
+Using LOG_ARCHIVE_DEST_10 parameter default value as USE_DB_RECOVERY_FILE_DEST
+Autotune of undo retention is turned on.
+IMODE=BR
+ILAT =10
+LICENSE_MAX_USERS = 0
+SYS auditing is disabled
+ksdpec: called for event 13740 prior to event group initialization
+Starting up ORACLE RDBMS Version: 10.2.0.1.0.
+System parameters with non-default values:
+  sessions                 = 49
+  __shared_pool_size       = 142606336
+  __large_pool_size        = 4194304
+  __java_pool_size         = 4194304
+  __streams_pool_size      = 0
+  nls_language             = RUSSIAN
+  nls_territory            = RUSSIA
+  nls_currency             = ..
+  sga_target               = 532676608
+  control_files            = /usr/lib/oracle/xe/oradata/XE/control.dbf
+  __db_cache_size          = 377487360
+  compatible               = 10.2.0.1.0
+  db_recovery_file_dest    = /usr/lib/oracle/xe/app/oracle/flash_recovery_area
+  db_recovery_file_dest_size= 10737418240
+  undo_management          = AUTO
+  undo_tablespace          = UNDO
+  remote_login_passwordfile= EXCLUSIVE
+  dispatchers              = (PROTOCOL=TCP) (SERVICE=XEXDB)
+  shared_servers           = 4
+  job_queue_processes      = 4
+  background_dump_dest     = /usr/lib/oracle/xe/app/oracle/admin/XE/bdump
+  user_dump_dest           = /usr/lib/oracle/xe/app/oracle/admin/XE/udump
+  core_dump_dest           = /usr/lib/oracle/xe/app/oracle/admin/XE/cdump
+  audit_file_dest          = /usr/lib/oracle/xe/app/oracle/admin/XE/adump
+  db_name                  = XE
+  open_cursors             = 300
+  os_authent_prefix        =
+  pga_aggregate_target     = 176947200
+PMON started with pid=2, OS id=2341
+PSP0 started with pid=3, OS id=2343
+MMAN started with pid=4, OS id=2345
+DBW0 started with pid=5, OS id=2347
+LGWR started with pid=6, OS id=2349
+CKPT started with pid=7, OS id=2351
+SMON started with pid=8, OS id=2353
+RECO started with pid=9, OS id=2355
+CJQ0 started with pid=10, OS id=2357
+MMON started with pid=11, OS id=2359
+Fri Oct 21 12:11:46 2022
+starting up 1 dispatcher(s) for network address '(ADDRESS=(PARTIAL=YES)(PROTOCOL=TCP))'...
+MMNL started with pid=12, OS id=2361
+Fri Oct 21 12:11:46 2022
+starting up 4 shared server(s) ...
+Oracle Data Guard is not available in this edition of Oracle.
+Fri Oct 21 12:11:46 2022
+ALTER DATABASE   MOUNT
+Fri Oct 21 12:11:53 2022
+Setting recovery target incarnation to 2
+Fri Oct 21 12:11:53 2022
+Successful mount of redo thread 1, with mount id 2999816133
+Fri Oct 21 12:11:53 2022
+Database mounted in Exclusive Mode
+Completed: ALTER DATABASE   MOUNT
+Fri Oct 21 12:26:50 2022
+db_recovery_file_dest_size of 10240 MB is 0.98% used. This is a
+user-specified limit on the amount of space that will be used by this
+database for recovery-related files, and does not reflect the amount of
+space available in the underlying filesystem or ASM diskgroup.
+Fri Oct 21 16:51:12 2022
+Starting ORACLE instance (normal)
+Cannot determine all dependent dynamic libraries for /proc/self/exe
+Unable to find dynamic library libocr10.so in search paths
+RPATH = /ade/aime1_build2101/oracle/has/lib/:/ade/aime1_build2101/oracle/lib/:/ade/aime1_build2101/oracle/has/lib/:
+LD_LIBRARY_PATH is not set!
+The default library directories are /lib and /usr/lib
+Unable to find dynamic library libocrb10.so in search paths
+Unable to find dynamic library libocrutl10.so in search paths
+Unable to find dynamic library libocrutl10.so in search paths
+LICENSE_MAX_SESSION = 0
+LICENSE_SESSIONS_WARNING = 0
+Fri Oct 21 16:51:12 2022
+Errors in file /usr/lib/oracle/xe/app/oracle/admin/XE/bdump/xe_psp0_2343.trc:
+ORA-27157: Message 27157 not found; No message file for product=RDBMS, facility=ORA
+ORA-27300: Message 27300 not found; No message file for product=RDBMS, facility=ORA; arguments: [semop] [43]
+ORA-27301: Message 27301 not found; No message file for product=RDBMS, facility=ORA; arguments: [Identifier removed]
+ORA-27302: Message 27302 not found; No message file for product=RDBMS, facility=ORA; arguments: [sskgpwwait1]
+Fri Oct 21 16:51:12 2022
+PSP0: terminating instance due to error 27157
+Fri Oct 21 16:51:12 2022
+Errors in file /usr/lib/oracle/xe/app/oracle/admin/XE/bdump/xe_lgwr_2349.trc:
+ORA-27157: Message 27157 not found; No message file for product=RDBMS, facility=ORA
+ORA-27300: Message 27300 not found; No message file for product=RDBMS, facility=ORA; arguments: [semop] [43]
+ORA-27301: Message 27301 not found; No message file for product=RDBMS, facility=ORA; arguments: [Identifier removed]
+ORA-27302: Message 27302 not found; No message file for product=RDBMS, facility=ORA; arguments: [sskgpwwait1]
+Picked latch-free SCN scheme 2
+Using LOG_ARCHIVE_DEST_10 parameter default value as USE_DB_RECOVERY_FILE_DEST
+Autotune of undo retention is turned on.
+IMODE=BR
+ILAT =10
+LICENSE_MAX_USERS = 0
+SYS auditing is disabled
+ksdpec: called for event 13740 prior to event group initialization
+Starting up ORACLE RDBMS Version: 10.2.0.1.0.
+System parameters with non-default values:
+  sessions                 = 49
+  __shared_pool_size       = 142606336
+  __large_pool_size        = 4194304
+  __java_pool_size         = 4194304
+  __streams_pool_size      = 0
+  nls_language             = RUSSIAN
+  nls_territory            = RUSSIA
+  nls_currency             = ..
+  sga_target               = 532676608
+  control_files            = /usr/lib/oracle/xe/oradata/XE/control.dbf
+  __db_cache_size          = 377487360
+  compatible               = 10.2.0.1.0
+  db_recovery_file_dest    = /usr/lib/oracle/xe/app/oracle/flash_recovery_area
+  db_recovery_file_dest_size= 10737418240
+  undo_management          = AUTO
+  undo_tablespace          = UNDO
+  remote_login_passwordfile= EXCLUSIVE
+  dispatchers              = (PROTOCOL=TCP) (SERVICE=XEXDB)
+  shared_servers           = 4
+  job_queue_processes      = 4
+  background_dump_dest     = /usr/lib/oracle/xe/app/oracle/admin/XE/bdump
+  user_dump_dest           = /usr/lib/oracle/xe/app/oracle/admin/XE/udump
+  core_dump_dest           = /usr/lib/oracle/xe/app/oracle/admin/XE/cdump
+  audit_file_dest          = /usr/lib/oracle/xe/app/oracle/admin/XE/adump
+  db_name                  = XE
+  open_cursors             = 300
+  os_authent_prefix        =
+  pga_aggregate_target     = 176947200
+PMON started with pid=2, OS id=3447
+PSP0 started with pid=3, OS id=3449
+MMAN started with pid=4, OS id=3451
+DBW0 started with pid=5, OS id=3453
+LGWR started with pid=6, OS id=3455
+CKPT started with pid=7, OS id=3457
+SMON started with pid=8, OS id=3459
+RECO started with pid=9, OS id=3461
+CJQ0 started with pid=10, OS id=3463
+MMON started with pid=11, OS id=3465
+Fri Oct 21 16:51:12 2022
+starting up 1 dispatcher(s) for network address '(ADDRESS=(PARTIAL=YES)(PROTOCOL=TCP))'...
+MMNL started with pid=12, OS id=3467
+Fri Oct 21 16:51:12 2022
+starting up 4 shared server(s) ...
+Oracle Data Guard is not available in this edition of Oracle.
+Fri Oct 21 16:51:12 2022
+ALTER DATABASE   MOUNT
+Fri Oct 21 16:51:12 2022
+sculkget: failed to lock /usr/lib/oracle/xe/app/oracle/product/10.2.0/server/dbs/lkXE exclusive
+sculkget: lock held by PID: 2343
+Fri Oct 21 16:51:12 2022
+ORA-09968: Message 9968 not found; No message file for product=RDBMS, facility=ORA
+Linux Error: 11: Resource temporarily unavailable
+Additional information: 2343
+Fri Oct 21 16:51:12 2022
+ORA-1102 signalled during: ALTER DATABASE   MOUNT...
+Shutting down instance: further logons disabled
+Fri Oct 21 16:51:13 2022
+Stopping background process CJQ0
+Fri Oct 21 16:51:13 2022
+Stopping background process MMNL
+Instance terminated by PSP0, pid = 2343
+Fri Oct 21 16:51:13 2022
+Errors in file /usr/lib/oracle/xe/app/oracle/admin/XE/bdump/xe_psp0_2343.trc:
+ORA-27300: Message 27300 not found; No message file for product=RDBMS, facility=ORA; arguments: [semctl] [43]
+ORA-27301: Message 27301 not found; No message file for product=RDBMS, facility=ORA; arguments: [Identifier removed]
+ORA-27302: Message 27302 not found; No message file for product=RDBMS, facility=ORA; arguments: [sskgpwrm1]
+ORA-27157: Message 27157 not found; No message file for product=RDBMS, facility=ORA
+ORA-27300: Message 27300 not found; No message file for product=RDBMS, facility=ORA; arguments: [semop] [43]
+ORA-27301: Message 27301 not found; No message file for product=RDBMS, facility=ORA; arguments: [Identifier removed]
+ORA-27302: Message 27302 not found; No message file for product=RDBMS, facility=ORA; arguments: [sskgpwwait1]
+Fri Oct 21 16:51:14 2022
+Stopping background process MMON
+Fri Oct 21 16:51:15 2022
+Shutting down instance (immediate)
+License high water mark = 1
+Fri Oct 21 16:51:15 2022
+Stopping Job queue slave processes
+Fri Oct 21 16:51:15 2022
+Job queue slave processes stopped
+All dispatchers and shared servers shutdown
+Fri Oct 21 16:51:15 2022
+ALTER DATABASE CLOSE NORMAL
+ORA-1507 signalled during: ALTER DATABASE CLOSE NORMAL...
+ARCH: Archival disabled due to shutdown: 1089
+Shutting down archive processes
+Archiving is disabled
+Archive process shutdown avoided: 0 active
+ARCH: Archival disabled due to shutdown: 1089
+Shutting down archive processes
+Archiving is disabled
+Archive process shutdown avoided: 0 active
+Fri Oct 21 16:51:17 2022
+Starting ORACLE instance (normal)
+Cannot determine all dependent dynamic libraries for /proc/self/exe
+Unable to find dynamic library libocr10.so in search paths
+RPATH = /ade/aime1_build2101/oracle/has/lib/:/ade/aime1_build2101/oracle/lib/:/ade/aime1_build2101/oracle/has/lib/:
+LD_LIBRARY_PATH is not set!
+The default library directories are /lib and /usr/lib
+Unable to find dynamic library libocrb10.so in search paths
+Unable to find dynamic library libocrutl10.so in search paths
+Unable to find dynamic library libocrutl10.so in search paths
+LICENSE_MAX_SESSION = 0
+LICENSE_SESSIONS_WARNING = 0
+Picked latch-free SCN scheme 2
+Using LOG_ARCHIVE_DEST_10 parameter default value as USE_DB_RECOVERY_FILE_DEST
+Autotune of undo retention is turned on.
+IMODE=BR
+ILAT =10
+LICENSE_MAX_USERS = 0
+SYS auditing is disabled
+ksdpec: called for event 13740 prior to event group initialization
+Starting up ORACLE RDBMS Version: 10.2.0.1.0.
+System parameters with non-default values:
+  sessions                 = 49
+  __shared_pool_size       = 142606336
+  __large_pool_size        = 4194304
+  __java_pool_size         = 4194304
+  __streams_pool_size      = 0
+  nls_language             = RUSSIAN
+  nls_territory            = RUSSIA
+  nls_currency             = ..
+  sga_target               = 532676608
+  control_files            = /usr/lib/oracle/xe/oradata/XE/control.dbf
+  __db_cache_size          = 377487360
+  compatible               = 10.2.0.1.0
+  db_recovery_file_dest    = /usr/lib/oracle/xe/app/oracle/flash_recovery_area
+  db_recovery_file_dest_size= 10737418240
+  undo_management          = AUTO
+  undo_tablespace          = UNDO
+  remote_login_passwordfile= EXCLUSIVE
+  dispatchers              = (PROTOCOL=TCP) (SERVICE=XEXDB)
+  shared_servers           = 4
+  job_queue_processes      = 4
+  background_dump_dest     = /usr/lib/oracle/xe/app/oracle/admin/XE/bdump
+  user_dump_dest           = /usr/lib/oracle/xe/app/oracle/admin/XE/udump
+  core_dump_dest           = /usr/lib/oracle/xe/app/oracle/admin/XE/cdump
+  audit_file_dest          = /usr/lib/oracle/xe/app/oracle/admin/XE/adump
+  db_name                  = XE
+  open_cursors             = 300
+  os_authent_prefix        =
+  pga_aggregate_target     = 176947200
+PMON started with pid=2, OS id=3510
+PSP0 started with pid=3, OS id=3512
+MMAN started with pid=4, OS id=3514
+DBW0 started with pid=5, OS id=3516
+LGWR started with pid=6, OS id=3518
+CKPT started with pid=7, OS id=3520
+SMON started with pid=8, OS id=3522
+RECO started with pid=9, OS id=3524
+CJQ0 started with pid=10, OS id=3526
+MMON started with pid=11, OS id=3528
+Fri Oct 21 16:51:17 2022
+starting up 1 dispatcher(s) for network address '(ADDRESS=(PARTIAL=YES)(PROTOCOL=TCP))'...
+MMNL started with pid=12, OS id=3530
+Fri Oct 21 16:51:17 2022
+starting up 4 shared server(s) ...
+Oracle Data Guard is not available in this edition of Oracle.
+Fri Oct 21 16:51:18 2022
+ALTER DATABASE   MOUNT
+Fri Oct 21 16:51:22 2022
+Setting recovery target incarnation to 2
+Fri Oct 21 16:51:22 2022
+Successful mount of redo thread 1, with mount id 2999805510
+Fri Oct 21 16:51:22 2022
+Database mounted in Exclusive Mode
+Completed: ALTER DATABASE   MOUNT
+Fri Oct 21 16:51:22 2022
+ALTER DATABASE OPEN
+Fri Oct 21 16:51:22 2022
+Beginning crash recovery of 1 threads
+Fri Oct 21 16:51:22 2022
+Started redo scan
+Fri Oct 21 16:51:22 2022
+Completed redo scan
+ 1623 redo blocks read, 384 data blocks need recovery
+Fri Oct 21 16:51:22 2022
+Started redo application at
+ Thread 1: logseq 1778, block 2741
+Fri Oct 21 16:51:22 2022
+Recovery of Online Redo Log: Thread 1 Group 1 Seq 1778 Reading mem 0
+  Mem# 0 errs 0: /usr/lib/oracle/xe/app/oracle/flash_recovery_area/XE/onlinelog/o1_mf_1_dgsl2dvq_.log
+Fri Oct 21 16:51:22 2022
+Completed redo application
+Fri Oct 21 16:51:22 2022
+Completed crash recovery at
+ Thread 1: logseq 1778, block 4364, scn 284885807248
+ 384 data blocks read, 384 data blocks written, 1623 redo blocks read
+Fri Oct 21 16:51:22 2022
+Thread 1 advanced to log sequence 1779
+Thread 1 opened at log sequence 1779
+  Current log# 2 seq# 1779 mem# 0: /usr/lib/oracle/xe/app/oracle/flash_recovery_area/XE/onlinelog/o1_mf_2_dgsl2gd0_.log
+Successful open of redo thread 1
+Fri Oct 21 16:51:22 2022
+SMON: enabling cache recovery
+Fri Oct 21 16:51:22 2022
+Successfully onlined Undo Tablespace 1.
+Fri Oct 21 16:51:22 2022
+SMON: enabling tx recovery
+Fri Oct 21 16:51:22 2022
+Database Characterset is CL8MSWIN1251
+replication_dependency_tracking turned off (no async multimaster replication found)
+Starting background process QMNC
+QMNC started with pid=19, OS id=3544
+Fri Oct 21 16:51:22 2022
+Completed: ALTER DATABASE OPEN
+Fri Oct 21 16:51:23 2022
+db_recovery_file_dest_size of 10240 MB is 0.98% used. This is a
+user-specified limit on the amount of space that will be used by this
+database for recovery-related files, and does not reflect the amount of
+space available in the underlying filesystem or ASM diskgroup.
