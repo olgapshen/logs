@@ -1,0 +1,83 @@
+#!/bin/bash
+#
+# chkconfig: 35 98 03
+# description: Oracle 12.2 startup and shutdown script
+
+# source function library
+. /etc/rc.d/init.d/functions
+
+RETVAL=0
+ORACLE_HOME=/usr/lib/oracle/xe/app/oracle/product/10.2.0/server
+ORACLE_OWNER=oracle
+ORACLE_SID=XE
+LSNR=$ORACLE_HOME/bin/lsnrctl
+SQLPLUS=$ORACLE_HOME/bin/sqlplus
+SU=/bin/su
+LD_LIBRARY_PATH=$ORACLE_HOME/lib:/lib:/usr/lib
+ORA_LOG=/var/log/oracle.log
+export ORACLE_HOME
+export ORACLE_SID
+export PATH=$ORACLE_HOME/bin:$PATH
+export LD_LIBRARY_PATH
+
+ulimit -n 32768
+ulimit -u 32768
+
+echo "-------------------------------------------------" >> $ORA_LOG
+date >> $ORA_LOG
+
+start() {
+    status=`ps -ef | grep tns | grep oracle`
+    if [ "$status" == "" ]
+    then
+        if [ -f $ORACLE_HOME/bin/tnslsnr ]
+        then
+                echo "Starting Oracle Net Listener."
+                $SU -s /bin/bash $ORACLE_OWNER -c "$LSNR  start" > /dev/null 2>&1
+        fi
+    fi
+    echo "Starting Oracle Database 10g Express Edition Instance."
+    $SU -s /bin/bash  $ORACLE_OWNER -c "$SQLPLUS -s /nolog @$ORACLE_HOME/config/scripts/startdb.sql" >> $ORA_LOG 2>&1
+    RETVAL=$?
+    if [ $RETVAL -eq 0 ]
+    then
+        echo
+    else
+        echo Failed to start Oracle Net Listener using $ORACLE_HOME/bin/tnslsnr\
+              and Oracle Express Database using $ORACLE_HOME/bin/sqlplus.
+        RETVAL=1
+    fi
+    return $RETVAL
+}
+
+stop() {
+    # Stop Oracle 10g Express Edition Database and Listener
+    echo Shutting down Oracle Database 10g Express Edition Instance.
+    $SU -s /bin/bash $ORACLE_OWNER -c "$SQLPLUS -s /nolog @$ORACLE_HOME/config/scripts/stopdb.sql" > /dev/null 2>&1
+    echo Stopping Oracle Net Listener.
+    $SU -s /bin/bash  $ORACLE_OWNER -c "$LSNR stop" > /dev/null 2>&1
+    RETVAL=$?
+    echo
+    if [ $RETVAL -eq 0 ] && rm -f /var/lock/subsys/$LSNR
+    then
+        return $RETVAL
+    fi
+}
+
+case "$1" in
+    start)
+        start
+        ;;
+    stop)
+        stop
+        ;;
+    restart)
+        stop
+        start
+        ;;
+    *)
+        echo $"Usage: $0 {start|stop|restart}"
+        exit 1
+esac
+
+exit 0
