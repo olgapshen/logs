@@ -1,0 +1,714 @@
+Oct 26 13:03:44 m_test xinetd[1996]: START: x11vnc-5900 pid=2061 from=::ffff:10.11.8.86
+Oct 26 13:03:45 m_test NetworkManager[1716]: <info> (eth16): device state change: ip-config -> activated (reason 'none') [7 8 0]
+Oct 26 13:03:45 m_test NetworkManager[1716]: <info> Policy set 'eth0' (eth16) as default for IPv4 routing and DNS.
+Oct 26 13:03:45 m_test NetworkManager[1716]: <info> Activation (eth16) successful, device activated.
+Oct 26 13:03:45 m_test NetworkManager[1716]: <info> Activation (eth16) Stage 5 of 5 (IP Configure Commit) complete.
+Oct 26 13:03:45 m_test xinetd[1996]: EXIT: x11vnc-5900 status=0 pid=2061 duration=1(sec)
+Oct 26 13:03:50 m_test xinetd[1996]: START: x11vnc-5900 pid=2403 from=::ffff:10.11.8.86
+Oct 26 13:03:52 m_test polkitd[2692]: started daemon version 0.96 using authority implementation `local' version `0.96'
+Oct 26 13:03:52 m_test rtkit-daemon[2703]: Sucessfully made thread 2701 of process 2701 (/usr/bin/pulseaudio) owned by '42' high priority at nice level -11.
+Oct 26 13:03:52 m_test dbus-daemon: [system] Rejected send message, 1 matched rules; type="method_call", sender=":1.26" (uid=42 pid=2688 comm="gnome-power-manager) interface="org.freedesktop.Hal.Device.LaptopPanel" member="GetBrightness" error name="(unset)" requested_reply=0 destination=":1.4" (uid=0 pid=1790 comm="hald))
+Oct 26 13:03:52 m_test rtkit-daemon[2703]: Sucessfully made thread 2707 of process 2701 (/usr/bin/pulseaudio) owned by '42' RT at priority 5.
+Oct 26 13:03:52 m_test rtkit-daemon[2703]: Sucessfully made thread 2708 of process 2701 (/usr/bin/pulseaudio) owned by '42' RT at priority 5.
+Oct 26 13:05:24 m_test xinetd[1996]: EXIT: x11vnc-5900 status=0 pid=2403 duration=94(sec)
+Oct 26 13:05:27 m_test dbus-daemon: [system] Rejected send message, 1 matched rules; type="method_call", sender=":1.43" (uid=42 pid=2846 comm="gnome-power-manager) interface="org.freedesktop.Hal.Device.LaptopPanel" member="GetBrightness" error name="(unset)" requested_reply=0 destination=":1.4" (uid=0 pid=1790 comm="hald))
+Oct 26 13:05:28 m_test xinetd[1996]: START: x11vnc-5900 pid=2857 from=::ffff:10.11.8.86
+Oct 26 13:09:19 m_test init: tty (/dev/tty2) main process (2376) killed by TERM signal
+Oct 26 13:09:19 m_test init: tty (/dev/tty3) main process (2378) killed by TERM signal
+Oct 26 13:09:19 m_test init: tty (/dev/tty4) main process (2380) killed by TERM signal
+Oct 26 13:09:19 m_test init: tty (/dev/tty5) main process (2382) killed by TERM signal
+Oct 26 13:09:19 m_test init: tty (/dev/tty6) main process (2384) killed by TERM signal
+Oct 26 13:09:21 m_test xinetd[1996]: EXIT: x11vnc-5900 status=0 pid=2857 duration=233(sec)
+Oct 26 13:09:22 m_test xinetd[1996]: Exiting...
+Oct 26 13:09:22 m_test pcscd: pcscdaemon.c:581:signal_trap() Preparing for suicide
+Oct 26 13:09:23 m_test pcscd: readerfactory.c:1267:RFCleanupReaders() entering cleaning function
+Oct 26 13:09:23 m_test pcscd: pcscdaemon.c:531:at_exit() cleaning /var/run
+Oct 26 13:09:23 m_test NetworkManager[1716]: <info> caught signal 15, shutting down normally.
+Oct 26 13:09:23 m_test NetworkManager[1716]: <info> exiting (success)
+Oct 26 13:09:23 m_test rtkit-daemon[2703]: Demoting known real-time threads.
+Oct 26 13:09:23 m_test rtkit-daemon[2703]: Successfully demoted thread 2708 of process 2701 (/usr/bin/pulseaudio).
+Oct 26 13:09:23 m_test rtkit-daemon[2703]: Successfully demoted thread 2707 of process 2701 (/usr/bin/pulseaudio).
+Oct 26 13:09:23 m_test console-kit-daemon[2545]: WARNING: no sender#012
+Oct 26 13:09:23 m_test rtkit-daemon[2703]: Successfully demoted thread 2701 of process 2701 (/usr/bin/pulseaudio).
+Oct 26 13:09:23 m_test rtkit-daemon[2703]: Demoted 3 threads.
+Oct 26 13:09:23 m_test init: Disconnected from system bus
+Oct 26 13:09:24 m_test auditd[1640]: The audit daemon is exiting.
+Oct 26 13:09:24 m_test kernel: type=1305 audit(1666778964.000:58): audit_pid=0 old=1640 auid=4294967295 ses=4294967295 res=1
+Oct 26 13:09:24 m_test kernel: type=1305 audit(1666778964.103:59): audit_enabled=0 old=1 auid=4294967295 ses=4294967295 res=1
+Oct 26 13:09:24 m_test kernel: Kernel logging (proc) stopped.
+Oct 26 13:09:24 m_test rsyslogd: [origin software="rsyslogd" swVersion="5.8.10" x-pid="1674" x-info="http://www.rsyslog.com"] exiting on signal 15.
+Oct 26 13:09:54 m_test kernel: imklog 5.8.10, log source = /proc/kmsg started.
+Oct 26 13:09:54 m_test rsyslogd: [origin software="rsyslogd" swVersion="5.8.10" x-pid="1676" x-info="http://www.rsyslog.com"] start
+Oct 26 13:09:54 m_test kernel: Initializing cgroup subsys cpuset
+Oct 26 13:09:54 m_test kernel: Initializing cgroup subsys cpu
+Oct 26 13:09:54 m_test kernel: Linux version 2.6.32-696.1.1.el6.i686 (mockbuild@c1bm.rdu2.centos.org) (gcc version 4.4.7 20120313 (Red Hat 4.4.7-18) (GCC) ) #1 SMP Tue Apr 11 16:37:48 UTC 2017
+Oct 26 13:09:54 m_test kernel: KERNEL supported cpus:
+Oct 26 13:09:54 m_test kernel:  Intel GenuineIntel
+Oct 26 13:09:54 m_test kernel:  AMD AuthenticAMD
+Oct 26 13:09:54 m_test kernel:  NSC Geode by NSC
+Oct 26 13:09:54 m_test kernel:  Cyrix CyrixInstead
+Oct 26 13:09:54 m_test kernel:  Centaur CentaurHauls
+Oct 26 13:09:54 m_test kernel:  Transmeta GenuineTMx86
+Oct 26 13:09:54 m_test kernel:  Transmeta TransmetaCPU
+Oct 26 13:09:54 m_test kernel:  UMC UMC UMC UMC
+Oct 26 13:09:54 m_test kernel: BIOS-provided physical RAM map:
+Oct 26 13:09:54 m_test kernel: BIOS-e820: 0000000000000000 - 000000000009d800 (usable)
+Oct 26 13:09:54 m_test kernel: BIOS-e820: 000000000009d800 - 00000000000a0000 (reserved)
+Oct 26 13:09:54 m_test kernel: BIOS-e820: 00000000000e0000 - 0000000000100000 (reserved)
+Oct 26 13:09:54 m_test kernel: BIOS-e820: 0000000000100000 - 000000001f000000 (usable)
+Oct 26 13:09:54 m_test kernel: BIOS-e820: 000000001f000000 - 000000001f100000 (reserved)
+Oct 26 13:09:54 m_test kernel: BIOS-e820: 000000001f100000 - 0000000020000000 (usable)
+Oct 26 13:09:54 m_test kernel: BIOS-e820: 0000000020000000 - 0000000020100000 (reserved)
+Oct 26 13:09:54 m_test kernel: BIOS-e820: 0000000020100000 - 00000000793fa000 (usable)
+Oct 26 13:09:54 m_test kernel: BIOS-e820: 00000000793fa000 - 000000007942a000 (reserved)
+Oct 26 13:09:54 m_test kernel: BIOS-e820: 000000007942a000 - 000000007943a000 (ACPI data)
+Oct 26 13:09:54 m_test kernel: BIOS-e820: 000000007943a000 - 0000000079938000 (ACPI NVS)
+Oct 26 13:09:54 m_test kernel: BIOS-e820: 0000000079938000 - 0000000079c0b000 (reserved)
+Oct 26 13:09:54 m_test kernel: BIOS-e820: 0000000079c0b000 - 0000000079c0c000 (usable)
+Oct 26 13:09:54 m_test kernel: BIOS-e820: 0000000079c0c000 - 0000000079c4e000 (reserved)
+Oct 26 13:09:54 m_test kernel: BIOS-e820: 0000000079c4e000 - 0000000079dbe000 (usable)
+Oct 26 13:09:54 m_test kernel: BIOS-e820: 0000000079dbe000 - 0000000079ffa000 (reserved)
+Oct 26 13:09:54 m_test kernel: BIOS-e820: 0000000079ffa000 - 000000007a000000 (usable)
+Oct 26 13:09:54 m_test kernel: BIOS-e820: 00000000e00f8000 - 00000000e00f9000 (reserved)
+Oct 26 13:09:54 m_test kernel: BIOS-e820: 00000000fed01000 - 00000000fed02000 (reserved)
+Oct 26 13:09:54 m_test kernel: BIOS-e820: 00000000fed08000 - 00000000fed09000 (reserved)
+Oct 26 13:09:54 m_test kernel: BIOS-e820: 00000000ffb00000 - 0000000100000000 (reserved)
+Oct 26 13:09:54 m_test kernel: SMBIOS version 2.8 @ 0xF05B0
+Oct 26 13:09:54 m_test kernel: SMBIOS 2.8 present.
+Oct 26 13:09:54 m_test kernel: AMI BIOS detected: BIOS may corrupt low RAM, working around it.
+Oct 26 13:09:54 m_test kernel: last_pfn = 0x7a000 max_arch_pfn = 0x400000
+Oct 26 13:09:54 m_test kernel: x86 PAT enabled: cpu 0, old 0x7040600070406, new 0x7010600070106
+Oct 26 13:09:54 m_test kernel: total RAM covered: 1960M
+Oct 26 13:09:54 m_test kernel: Found optimal setting for mtrr clean up
+Oct 26 13:09:54 m_test kernel: gran_size: 64K 	chunk_size: 128M 	num_reg: 4  	lose cover RAM: 0G
+Oct 26 13:09:54 m_test kernel: init_memory_mapping: 0000000000000000-00000000375fe000
+Oct 26 13:09:54 m_test kernel: NX (Execute Disable) protection: active
+Oct 26 13:09:54 m_test kernel: RAMDISK: 1df50000 - 1efef168
+Oct 26 13:09:54 m_test kernel: ACPI: Deleted _OSI(Windows 2012)
+Oct 26 13:09:54 m_test kernel: ACPI: Deleted _OSI(Windows 2013)
+Oct 26 13:09:54 m_test kernel: ACPI: RSDP 000f0580 00024 (v02 ALASKA)
+Oct 26 13:09:54 m_test kernel: ACPI: XSDT 79431080 0007C (v01 ALASKA   A M I  01072009 AMI  00010013)
+Oct 26 13:09:54 m_test kernel: ACPI: FACP 79438d18 0010C (v05 ALASKA   A M I  01072009 AMI  00010013)
+Oct 26 13:09:54 m_test kernel: ACPI: DSDT 79431188 07B8E (v02 ALASKA   A M I  01072009 INTL 20120913)
+Oct 26 13:09:54 m_test kernel: ACPI: FACS 79937f80 00040
+Oct 26 13:09:54 m_test kernel: ACPI: APIC 79438e28 00084 (v03 ALASKA   A M I  01072009 AMI  00010013)
+Oct 26 13:09:54 m_test kernel: ACPI: FPDT 79438eb0 00044 (v01 ALASKA   A M I  01072009 AMI  00010013)
+Oct 26 13:09:54 m_test kernel: ACPI: FIDT 79438ef8 0009C (v01 ALASKA   A M I  01072009 AMI  00010013)
+Oct 26 13:09:54 m_test kernel: ACPI: MCFG 79438f98 0003C (v01 ALASKA    A M I 01072009 MSFT 00000097)
+Oct 26 13:09:54 m_test kernel: ACPI: LPIT 79438fd8 00104 (v01 ALASKA   A M I  00000003 VLV2 0100000D)
+Oct 26 13:09:54 m_test kernel: ACPI: HPET 794390e0 00038 (v01 ALASKA   A M I  01072009 AMI. 00000005)
+Oct 26 13:09:54 m_test kernel: ACPI: SSDT 79439118 00763 (v01  PmRef    CpuPm 00003000 INTL 20061109)
+Oct 26 13:09:54 m_test kernel: ACPI: SSDT 79439880 00290 (v01  PmRef  Cpu0Tst 00003000 INTL 20061109)
+Oct 26 13:09:54 m_test kernel: ACPI: SSDT 79439b10 0017A (v01  PmRef    ApTst 00003000 INTL 20061109)
+Oct 26 13:09:54 m_test kernel: ACPI: UEFI 79439c90 00042 (v01 ALASKA   A M I  00000000      00000000)
+Oct 26 13:09:54 m_test kernel: 1066MB HIGHMEM available.
+Oct 26 13:09:54 m_test kernel: 885MB LOWMEM available.
+Oct 26 13:09:54 m_test kernel:  mapped low ram: 0 - 375fe000
+Oct 26 13:09:54 m_test kernel:  low ram: 0 - 375fe000
+Oct 26 13:09:54 m_test kernel:  node 0 low ram: 00000000 - 375fe000
+Oct 26 13:09:54 m_test kernel:  node 0 bootmap 00014000 - 0001aec0
+Oct 26 13:09:54 m_test kernel: (9 early reservations) ==> bootmem [0000000000 - 00375fe000]
+Oct 26 13:09:54 m_test kernel:  #0 [0000000000 - 0000001000]   BIOS data page ==> [0000000000 - 0000001000]
+Oct 26 13:09:54 m_test kernel:  #1 [0000001000 - 0000002000]    EX TRAMPOLINE ==> [0000001000 - 0000002000]
+Oct 26 13:09:54 m_test kernel:  #2 [0000006000 - 0000007000]       TRAMPOLINE ==> [0000006000 - 0000007000]
+Oct 26 13:09:54 m_test kernel:  #3 [0000400000 - 0000cd20d0]    TEXT DATA BSS ==> [0000400000 - 0000cd20d0]
+Oct 26 13:09:54 m_test kernel:  #4 [001df50000 - 001efef168]          RAMDISK ==> [001df50000 - 001efef168]
+Oct 26 13:09:54 m_test kernel:  #5 [000009d800 - 0000100000]    BIOS reserved ==> [000009d800 - 0000100000]
+Oct 26 13:09:54 m_test kernel:  #6 [0000cd3000 - 0000cdb331]              BRK ==> [0000cd3000 - 0000cdb331]
+Oct 26 13:09:54 m_test kernel:  #7 [0000010000 - 0000014000]          PGTABLE ==> [0000010000 - 0000014000]
+Oct 26 13:09:54 m_test kernel:  #8 [0000014000 - 000001b000]          BOOTMAP ==> [0000014000 - 000001b000]
+Oct 26 13:09:54 m_test kernel: found SMP MP-table at [c00fd820] fd820
+Oct 26 13:09:54 m_test kernel: Reserving 129MB of memory at 16MB for crashkernel (System RAM: 1952MB)
+Oct 26 13:09:54 m_test kernel: Zone PFN ranges:
+Oct 26 13:09:54 m_test kernel:  DMA      0x00000010 -> 0x00001000
+Oct 26 13:09:54 m_test kernel:  Normal   0x00001000 -> 0x000375fe
+Oct 26 13:09:54 m_test kernel:  HighMem  0x000375fe -> 0x0007a000
+Oct 26 13:09:54 m_test kernel: Movable zone start PFN for each node
+Oct 26 13:09:54 m_test kernel: early_node_map[7] active PFN ranges
+Oct 26 13:09:54 m_test kernel:    0: 0x00000010 -> 0x0000009d
+Oct 26 13:09:54 m_test kernel:    0: 0x00000100 -> 0x0001f000
+Oct 26 13:09:54 m_test kernel:    0: 0x0001f100 -> 0x00020000
+Oct 26 13:09:54 m_test kernel:    0: 0x00020100 -> 0x000793fa
+Oct 26 13:09:54 m_test kernel:    0: 0x00079c0b -> 0x00079c0c
+Oct 26 13:09:54 m_test kernel:    0: 0x00079c4e -> 0x00079dbe
+Oct 26 13:09:54 m_test kernel:    0: 0x00079ffa -> 0x0007a000
+Oct 26 13:09:54 m_test kernel: Using APIC driver default
+Oct 26 13:09:54 m_test kernel: Reserving Intel graphics stolen memory at 0x7b000000-0x7effffff
+Oct 26 13:09:54 m_test kernel: ACPI: PM-Timer IO Port: 0x408
+Oct 26 13:09:54 m_test kernel: ACPI: LAPIC (acpi_id[0x01] lapic_id[0x00] enabled)
+Oct 26 13:09:54 m_test kernel: ACPI: LAPIC (acpi_id[0x02] lapic_id[0x02] enabled)
+Oct 26 13:09:54 m_test kernel: ACPI: LAPIC (acpi_id[0x03] lapic_id[0x04] enabled)
+Oct 26 13:09:54 m_test kernel: ACPI: LAPIC (acpi_id[0x04] lapic_id[0x06] enabled)
+Oct 26 13:09:54 m_test kernel: ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])
+Oct 26 13:09:54 m_test kernel: ACPI: LAPIC_NMI (acpi_id[0x02] high edge lint[0x1])
+Oct 26 13:09:54 m_test kernel: ACPI: LAPIC_NMI (acpi_id[0x03] high edge lint[0x1])
+Oct 26 13:09:54 m_test kernel: ACPI: LAPIC_NMI (acpi_id[0x04] high edge lint[0x1])
+Oct 26 13:09:54 m_test kernel: ACPI: IOAPIC (id[0x01] address[0xfec00000] gsi_base[0])
+Oct 26 13:09:54 m_test kernel: IOAPIC[0]: apic_id 1, version 32, address 0xfec00000, GSI 0-86
+Oct 26 13:09:54 m_test kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Oct 26 13:09:54 m_test kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Oct 26 13:09:54 m_test kernel: Using ACPI (MADT) for SMP configuration information
+Oct 26 13:09:54 m_test kernel: ACPI: HPET id: 0x8086a201 base: 0xfed00000
+Oct 26 13:09:54 m_test kernel: SMP: Allowing 4 CPUs, 0 hotplug CPUs
+Oct 26 13:09:54 m_test kernel: PM: Registered nosave memory: 000000000009d000 - 000000000009e000
+Oct 26 13:09:54 m_test kernel: PM: Registered nosave memory: 000000000009e000 - 00000000000a0000
+Oct 26 13:09:54 m_test kernel: PM: Registered nosave memory: 00000000000a0000 - 00000000000e0000
+Oct 26 13:09:54 m_test kernel: PM: Registered nosave memory: 00000000000e0000 - 0000000000100000
+Oct 26 13:09:54 m_test kernel: PM: Registered nosave memory: 000000001f000000 - 000000001f100000
+Oct 26 13:09:54 m_test kernel: PM: Registered nosave memory: 0000000020000000 - 0000000020100000
+Oct 26 13:09:54 m_test kernel: Allocating PCI resources starting at 7f000000 (gap: 7f000000:610f8000)
+Oct 26 13:09:54 m_test kernel: Booting paravirtualized kernel on bare hardware
+Oct 26 13:09:54 m_test kernel: NR_CPUS:32 nr_cpumask_bits:32 nr_cpu_ids:4 nr_node_ids:1
+Oct 26 13:09:54 m_test kernel: PERCPU: Embedded 16 pages/cpu @ca200000 s41304 r0 d24232 u524288
+Oct 26 13:09:54 m_test kernel: pcpu-alloc: s41304 r0 d24232 u524288 alloc=1*2097152
+Oct 26 13:09:54 m_test kernel: pcpu-alloc: [0] 0 1 2 3 
+Oct 26 13:09:54 m_test kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 492477
+Oct 26 13:09:54 m_test kernel: Kernel command line: ro root=/dev/mapper/vg_test1-lv_root rd_NO_LUKS LANG=ru_RU.CP1251 SYSFONT=latarcyrheb-sun16 crashkernel=129M@0M KEYBOARDTYPE=pc KEYTABLE=us rhgb quiet
+Oct 26 13:09:54 m_test kernel: PID hash table entries: 4096 (order: 2, 16384 bytes)
+Oct 26 13:09:54 m_test kernel: Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+Oct 26 13:09:54 m_test kernel: Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+Oct 26 13:09:54 m_test kernel: Enabling fast FPU save and restore... done.
+Oct 26 13:09:54 m_test kernel: Enabling unmasked SIMD FPU exception support... done.
+Oct 26 13:09:54 m_test kernel: Initializing CPU#0
+Oct 26 13:09:54 m_test kernel: Initializing HighMem for node 0 (000375fe:0007a000)
+Oct 26 13:09:54 m_test kernel: Memory: 1808396k/1998848k available (4627k kernel code, 175816k reserved, 2626k data, 556k init, 1080780k highmem)
+Oct 26 13:09:54 m_test kernel: virtual kernel memory layout:
+Oct 26 13:09:54 m_test kernel:    fixmap  : 0xffad5000 - 0xfffff000   (5288 kB)
+Oct 26 13:09:54 m_test kernel:    pkmap   : 0xff600000 - 0xff800000   (2048 kB)
+Oct 26 13:09:54 m_test kernel:    vmalloc : 0xf7dfe000 - 0xff5fe000   ( 120 MB)
+Oct 26 13:09:54 m_test kernel:    lowmem  : 0xc0000000 - 0xf75fe000   ( 885 MB)
+Oct 26 13:09:54 m_test kernel:      .init : 0xc0b16000 - 0xc0ba1000   ( 556 kB)
+Oct 26 13:09:54 m_test kernel:      .data : 0xc0884f08 - 0xc0b15968   (2626 kB)
+Oct 26 13:09:54 m_test kernel:      .text : 0xc0400000 - 0xc0884f08   (4627 kB)
+Oct 26 13:09:54 m_test kernel: Checking if this processor honours the WP bit even in supervisor mode...Ok.
+Oct 26 13:09:54 m_test kernel: Hierarchical RCU implementation.
+Oct 26 13:09:54 m_test kernel: NR_IRQS:2304 nr_irqs:1024
+Oct 26 13:09:54 m_test kernel: Extended CMOS year: 2000
+Oct 26 13:09:54 m_test kernel: Console: colour VGA+ 80x25
+Oct 26 13:09:54 m_test kernel: console [tty0] enabled
+Oct 26 13:09:54 m_test kernel: allocated 4194304 bytes of page_cgroup
+Oct 26 13:09:54 m_test kernel: please try 'cgroup_disable=memory' option if you don't want memory cgroups
+Oct 26 13:09:54 m_test kernel: Fast TSC calibration failed
+Oct 26 13:09:54 m_test kernel: TSC: PIT calibration matches HPET. 1 loops
+Oct 26 13:09:54 m_test kernel: Detected 1999.833 MHz processor.
+Oct 26 13:09:54 m_test kernel: Calibrating delay loop (skipped), value calculated using timer frequency.. 3999.66 BogoMIPS (lpj=1999833)
+Oct 26 13:09:54 m_test kernel: pid_max: default: 32768 minimum: 301
+Oct 26 13:09:54 m_test kernel: Security Framework initialized
+Oct 26 13:09:54 m_test kernel: SELinux:  Initializing.
+Oct 26 13:09:54 m_test kernel: Mount-cache hash table entries: 512
+Oct 26 13:09:54 m_test kernel: Initializing cgroup subsys ns
+Oct 26 13:09:54 m_test kernel: Initializing cgroup subsys cpuacct
+Oct 26 13:09:54 m_test kernel: Initializing cgroup subsys memory
+Oct 26 13:09:54 m_test kernel: Initializing cgroup subsys devices
+Oct 26 13:09:54 m_test kernel: Initializing cgroup subsys freezer
+Oct 26 13:09:54 m_test kernel: Initializing cgroup subsys net_cls
+Oct 26 13:09:54 m_test kernel: Initializing cgroup subsys blkio
+Oct 26 13:09:54 m_test kernel: Initializing cgroup subsys perf_event
+Oct 26 13:09:54 m_test kernel: Initializing cgroup subsys net_prio
+Oct 26 13:09:54 m_test kernel: CPU: Physical Processor ID: 0
+Oct 26 13:09:54 m_test kernel: CPU: Processor Core ID: 0
+Oct 26 13:09:54 m_test kernel: mce: CPU supports 6 MCE banks
+Oct 26 13:09:54 m_test kernel: CPU0: Thermal monitoring enabled (TM1)
+Oct 26 13:09:54 m_test kernel: using mwait in idle threads.
+Oct 26 13:09:54 m_test kernel: ACPI: Core revision 20090903
+Oct 26 13:09:54 m_test kernel: Enabling APIC mode:  Flat.  Using 1 I/O APICs
+Oct 26 13:09:54 m_test kernel: ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=0 pin2=0
+Oct 26 13:09:54 m_test kernel: CPU0: Intel(R) Celeron(R) CPU  J1900  @ 1.99GHz stepping 09
+Oct 26 13:09:54 m_test kernel: Performance Events: PEBS fmt2+, LBR disabled due to erratumSilvermont events, full-width counters, Intel PMU driver.
+Oct 26 13:09:54 m_test kernel: ... version:                3
+Oct 26 13:09:54 m_test kernel: ... bit width:              40
+Oct 26 13:09:54 m_test kernel: ... generic registers:      2
+Oct 26 13:09:54 m_test kernel: ... value mask:             000000ffffffffff
+Oct 26 13:09:54 m_test kernel: ... max period:             000000ffffffffff
+Oct 26 13:09:54 m_test kernel: ... fixed-purpose events:   3
+Oct 26 13:09:54 m_test kernel: ... event mask:             0000000700000003
+Oct 26 13:09:54 m_test kernel: Booting Node   0, Processors  #1
+Oct 26 13:09:54 m_test kernel: Initializing CPU#1
+Oct 26 13:09:54 m_test kernel: #2
+Oct 26 13:09:54 m_test kernel: Initializing CPU#2
+Oct 26 13:09:54 m_test kernel: #3 Ok.
+Oct 26 13:09:54 m_test kernel: Initializing CPU#3
+Oct 26 13:09:54 m_test kernel: Brought up 4 CPUs
+Oct 26 13:09:54 m_test kernel: Total of 4 processors activated (15998.66 BogoMIPS).
+Oct 26 13:09:54 m_test kernel: devtmpfs: initialized
+Oct 26 13:09:54 m_test kernel: PM: Registering ACPI NVS region at 7943a000 (5234688 bytes)
+Oct 26 13:09:54 m_test kernel: regulator: core version 0.5
+Oct 26 13:09:54 m_test kernel: NET: Registered protocol family 16
+Oct 26 13:09:54 m_test kernel: ACPI FADT declares the system doesn't support PCIe ASPM, so disable it
+Oct 26 13:09:54 m_test kernel: ACPI: bus type pci registered
+Oct 26 13:09:54 m_test kernel: PCI: MCFG configuration 0: base e0000000 segment 0 buses 0 - 255
+Oct 26 13:09:54 m_test kernel: PCI: Not using MMCONFIG.
+Oct 26 13:09:54 m_test kernel: PCI: Using configuration type 1 for base access
+Oct 26 13:09:54 m_test kernel: bio: create slab <bio-0> at 0
+Oct 26 13:09:54 m_test kernel: ACPI: Interpreter enabled
+Oct 26 13:09:54 m_test kernel: ACPI: (supports S0 S3 S4 S5)
+Oct 26 13:09:54 m_test kernel: ACPI: Using IOAPIC for interrupt routing
+Oct 26 13:09:54 m_test kernel: PCI: MCFG configuration 0: base e0000000 segment 0 buses 0 - 255
+Oct 26 13:09:54 m_test kernel: PCI: MCFG area at e0000000 reserved in ACPI motherboard resources
+Oct 26 13:09:54 m_test kernel: PCI: Using MMCONFIG for extended config space
+Oct 26 13:09:54 m_test kernel: ACPI: Power Resource [USBC] (on)
+Oct 26 13:09:54 m_test kernel: ACPI: No dock devices found.
+Oct 26 13:09:54 m_test kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Oct 26 13:09:54 m_test kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Oct 26 13:09:54 m_test kernel: pci_root PNP0A08:00: host bridge window [io  0x0000-0x006f]
+Oct 26 13:09:54 m_test kernel: pci_root PNP0A08:00: host bridge window [io  0x0078-0x0cf7]
+Oct 26 13:09:54 m_test kernel: pci_root PNP0A08:00: host bridge window [io  0x0d00-0xffff]
+Oct 26 13:09:54 m_test kernel: pci_root PNP0A08:00: host bridge window [mem 0x000a0000-0x000bffff]
+Oct 26 13:09:54 m_test kernel: pci_root PNP0A08:00: host bridge window [mem 0x000c0000-0x000dffff]
+Oct 26 13:09:54 m_test kernel: pci_root PNP0A08:00: host bridge window [mem 0x000e0000-0x000fffff]
+Oct 26 13:09:54 m_test kernel: pci_root PNP0A08:00: host bridge window [mem 0x80000000-0xd0715fff]
+Oct 26 13:09:54 m_test kernel: PCI host bridge to bus 0000:00
+Oct 26 13:09:54 m_test kernel: pci_bus 0000:00: root bus resource [io  0x0000-0x006f]
+Oct 26 13:09:54 m_test kernel: pci_bus 0000:00: root bus resource [io  0x0078-0x0cf7]
+Oct 26 13:09:54 m_test kernel: pci_bus 0000:00: root bus resource [io  0x0d00-0xffff]
+Oct 26 13:09:54 m_test kernel: pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff]
+Oct 26 13:09:54 m_test kernel: pci_bus 0000:00: root bus resource [mem 0x000c0000-0x000dffff]
+Oct 26 13:09:54 m_test kernel: pci_bus 0000:00: root bus resource [mem 0x000e0000-0x000fffff]
+Oct 26 13:09:54 m_test kernel: pci_bus 0000:00: root bus resource [mem 0x80000000-0xd0715fff]
+Oct 26 13:09:54 m_test kernel: pci 0000:00:13.0: PME# supported from D3hot
+Oct 26 13:09:54 m_test kernel: pci 0000:00:13.0: PME# disabled
+Oct 26 13:09:54 m_test kernel: pci 0000:00:14.0: PME# supported from D3hot D3cold
+Oct 26 13:09:54 m_test kernel: pci 0000:00:14.0: PME# disabled
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1a.0: PME# supported from D0 D3hot
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1a.0: PME# disabled
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1b.0: PME# supported from D0 D3hot D3cold
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1b.0: PME# disabled
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.0: PME# supported from D0 D3hot D3cold
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.0: PME# disabled
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.1: PME# supported from D0 D3hot D3cold
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.1: PME# disabled
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.2: PME# supported from D0 D3hot D3cold
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.2: PME# disabled
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.3: PME# supported from D0 D3hot D3cold
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.3: PME# disabled
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.0: PCI bridge to [bus 01-01]
+Oct 26 13:09:54 m_test kernel: pci 0000:02:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+Oct 26 13:09:54 m_test kernel: pci 0000:02:00.0: PME# disabled
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.1: PCI bridge to [bus 02-02]
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.2: PCI bridge to [bus 03-03]
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.3: PCI bridge to [bus 04-04]
+Oct 26 13:09:54 m_test kernel: pci0000:00: Requesting ACPI _OSC control (0x1d)
+Oct 26 13:09:54 m_test kernel: pci0000:00: ACPI _OSC control (0x18) granted
+Oct 26 13:09:54 m_test kernel: ACPI: PCI Interrupt Link [LNKA] (IRQs 3 4 5 6 *10 11 12 14 15)
+Oct 26 13:09:54 m_test kernel: ACPI: PCI Interrupt Link [LNKB] (IRQs 3 4 5 6 *10 11 12 14 15)
+Oct 26 13:09:54 m_test kernel: ACPI: PCI Interrupt Link [LNKC] (IRQs 3 4 5 6 *10 11 12 14 15)
+Oct 26 13:09:54 m_test kernel: ACPI: PCI Interrupt Link [LNKD] (IRQs 3 4 5 6 *10 11 12 14 15)
+Oct 26 13:09:54 m_test kernel: ACPI: PCI Interrupt Link [LNKE] (IRQs 3 4 5 6 *10 11 12 14 15)
+Oct 26 13:09:54 m_test kernel: ACPI: PCI Interrupt Link [LNKF] (IRQs 3 4 5 6 10 11 12 14 15) *0, disabled.
+Oct 26 13:09:54 m_test kernel: ACPI: PCI Interrupt Link [LNKG] (IRQs 3 4 5 6 *10 11 12 14 15)
+Oct 26 13:09:54 m_test kernel: ACPI: PCI Interrupt Link [LNKH] (IRQs 3 4 5 6 10 11 12 14 15) *0, disabled.
+Oct 26 13:09:54 m_test kernel: vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+Oct 26 13:09:54 m_test kernel: vgaarb: loaded
+Oct 26 13:09:54 m_test kernel: vgaarb: bridge control possible 0000:00:02.0
+Oct 26 13:09:54 m_test kernel: SCSI subsystem initialized
+Oct 26 13:09:54 m_test kernel: usbcore: registered new interface driver usbfs
+Oct 26 13:09:54 m_test kernel: usbcore: registered new interface driver hub
+Oct 26 13:09:54 m_test kernel: usbcore: registered new device driver usb
+Oct 26 13:09:54 m_test kernel: PCI: Using ACPI for IRQ routing
+Oct 26 13:09:54 m_test kernel: NetLabel: Initializing
+Oct 26 13:09:54 m_test kernel: NetLabel:  domain hash size = 128
+Oct 26 13:09:54 m_test kernel: NetLabel:  protocols = UNLABELED CIPSOv4
+Oct 26 13:09:54 m_test kernel: NetLabel:  unlabeled traffic allowed by default
+Oct 26 13:09:54 m_test kernel: HPET: 3 timers in total, 0 timers will be used for per-cpu timer
+Oct 26 13:09:54 m_test kernel: hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0
+Oct 26 13:09:54 m_test kernel: hpet0: 3 comparators, 64-bit 14.318180 MHz counter
+Oct 26 13:09:54 m_test kernel: Switching to clocksource hpet
+Oct 26 13:09:54 m_test kernel: pnp: PnP ACPI init
+Oct 26 13:09:54 m_test kernel: ACPI: bus type pnp registered
+Oct 26 13:09:54 m_test kernel: pnp 00:01: IRQ 8 override to edge, high
+Oct 26 13:09:54 m_test kernel: pnp: PnP ACPI: found 17 devices
+Oct 26 13:09:54 m_test kernel: ACPI: ACPI bus type pnp unregistered
+Oct 26 13:09:54 m_test kernel: system 00:04: [io  0x0680-0x069f] has been reserved
+Oct 26 13:09:54 m_test kernel: system 00:04: [io  0x0400-0x047f] has been reserved
+Oct 26 13:09:54 m_test kernel: system 00:04: [io  0x0500-0x05fe] has been reserved
+Oct 26 13:09:54 m_test kernel: system 00:04: [io  0x0600-0x061f] has been reserved
+Oct 26 13:09:54 m_test kernel: system 00:05: [io  0x0a00-0x0a2f] has been reserved
+Oct 26 13:09:54 m_test kernel: system 00:05: [io  0x0a30-0x0a3f] has been reserved
+Oct 26 13:09:54 m_test kernel: system 00:05: [io  0x0a40-0x0a4f] has been reserved
+Oct 26 13:09:54 m_test kernel: system 00:0f: [mem 0xe0000000-0xefffffff] could not be reserved
+Oct 26 13:09:54 m_test kernel: system 00:0f: [mem 0xfed01000-0xfed01fff] has been reserved
+Oct 26 13:09:54 m_test kernel: system 00:0f: [mem 0xfed03000-0xfed03fff] has been reserved
+Oct 26 13:09:54 m_test kernel: system 00:0f: [mem 0xfed04000-0xfed04fff] has been reserved
+Oct 26 13:09:54 m_test kernel: system 00:0f: [mem 0xfed0c000-0xfed0ffff] has been reserved
+Oct 26 13:09:54 m_test kernel: system 00:0f: [mem 0xfed08000-0xfed08fff] has been reserved
+Oct 26 13:09:54 m_test kernel: system 00:0f: [mem 0xfed1c000-0xfed1cfff] has been reserved
+Oct 26 13:09:54 m_test kernel: system 00:0f: [mem 0xfee00000-0xfeefffff] has been reserved
+Oct 26 13:09:54 m_test kernel: system 00:0f: [mem 0xfef00000-0xfeffffff] has been reserved
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.0: BAR 14: assigned [mem 0x80000000-0x801fffff]
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.0: BAR 15: assigned [mem 0x80200000-0x803fffff 64bit pref]
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.1: BAR 15: assigned [mem 0x80400000-0x805fffff 64bit pref]
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.2: BAR 14: assigned [mem 0x80600000-0x807fffff]
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.2: BAR 15: assigned [mem 0x80800000-0x809fffff 64bit pref]
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.3: BAR 14: assigned [mem 0x80a00000-0x80bfffff]
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.3: BAR 15: assigned [mem 0x80c00000-0x80dfffff 64bit pref]
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.0: BAR 13: assigned [io  0x1000-0x1fff]
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.2: BAR 13: assigned [io  0x2000-0x2fff]
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.3: BAR 13: assigned [io  0x3000-0x3fff]
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.0: PCI bridge to [bus 01-01]
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.0:   bridge window [io  0x1000-0x1fff]
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.0:   bridge window [mem 0x80000000-0x801fffff]
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.0:   bridge window [mem 0x80200000-0x803fffff 64bit pref]
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.1: PCI bridge to [bus 02-02]
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.1:   bridge window [io  0xe000-0xefff]
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.1:   bridge window [mem 0xd0600000-0xd06fffff]
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.1:   bridge window [mem 0x80400000-0x805fffff 64bit pref]
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.2: PCI bridge to [bus 03-03]
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.2:   bridge window [io  0x2000-0x2fff]
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.2:   bridge window [mem 0x80600000-0x807fffff]
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.2:   bridge window [mem 0x80800000-0x809fffff 64bit pref]
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.3: PCI bridge to [bus 04-04]
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.3:   bridge window [io  0x3000-0x3fff]
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.3:   bridge window [mem 0x80a00000-0x80bfffff]
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.3:   bridge window [mem 0x80c00000-0x80dfffff 64bit pref]
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.0: PCI INT A -> GSI 16 (level, low) -> IRQ 16
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.1: PCI INT B -> GSI 17 (level, low) -> IRQ 17
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.2: PCI INT C -> GSI 18 (level, low) -> IRQ 18
+Oct 26 13:09:54 m_test kernel: pci 0000:00:1c.3: PCI INT D -> GSI 19 (level, low) -> IRQ 19
+Oct 26 13:09:54 m_test kernel: NET: Registered protocol family 2
+Oct 26 13:09:54 m_test kernel: IP route cache hash table entries: 32768 (order: 5, 131072 bytes)
+Oct 26 13:09:54 m_test kernel: TCP established hash table entries: 131072 (order: 8, 1048576 bytes)
+Oct 26 13:09:54 m_test kernel: TCP bind hash table entries: 65536 (order: 7, 524288 bytes)
+Oct 26 13:09:54 m_test kernel: TCP: Hash tables configured (established 131072 bind 65536)
+Oct 26 13:09:54 m_test kernel: TCP reno registered
+Oct 26 13:09:54 m_test kernel: NET: Registered protocol family 1
+Oct 26 13:09:54 m_test kernel: pci 0000:00:14.0: PCI INT A -> GSI 20 (level, low) -> IRQ 20
+Oct 26 13:09:54 m_test kernel: pci 0000:00:14.0: PCI INT A disabled
+Oct 26 13:09:54 m_test kernel: Trying to unpack rootfs image as initramfs...
+Oct 26 13:09:54 m_test kernel: Freeing initrd memory: 17020k freed
+Oct 26 13:09:54 m_test kernel: apm: BIOS not found.
+Oct 26 13:09:54 m_test kernel: futex hash table entries: 1024 (order: 3, 32768 bytes)
+Oct 26 13:09:54 m_test kernel: audit: initializing netlink socket (disabled)
+Oct 26 13:09:54 m_test kernel: type=2000 audit(1666778984.882:1): initialized
+Oct 26 13:09:54 m_test kernel: highmem bounce pool size: 64 pages
+Oct 26 13:09:54 m_test kernel: HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Oct 26 13:09:54 m_test kernel: VFS: Disk quotas dquot_6.5.2
+Oct 26 13:09:54 m_test kernel: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Oct 26 13:09:54 m_test kernel: msgmni has been set to 1456
+Oct 26 13:09:54 m_test kernel: ksign: Installing public key data
+Oct 26 13:09:54 m_test kernel: Loading keyring
+Oct 26 13:09:54 m_test kernel: - Added public key 916DBC8389463E41
+Oct 26 13:09:54 m_test kernel: - User ID: CentOS (Kernel Module GPG key)
+Oct 26 13:09:54 m_test kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 250)
+Oct 26 13:09:54 m_test kernel: io scheduler noop registered
+Oct 26 13:09:54 m_test kernel: io scheduler anticipatory registered
+Oct 26 13:09:54 m_test kernel: io scheduler deadline registered
+Oct 26 13:09:54 m_test kernel: io scheduler cfq registered (default)
+Oct 26 13:09:54 m_test kernel: pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Oct 26 13:09:54 m_test kernel: pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+Oct 26 13:09:54 m_test kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Oct 26 13:09:54 m_test kernel: input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0
+Oct 26 13:09:54 m_test kernel: ACPI: Power Button [PWRC]
+Oct 26 13:09:54 m_test kernel: input: Sleep Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input1
+Oct 26 13:09:54 m_test kernel: ACPI: Sleep Button [SLPB]
+Oct 26 13:09:54 m_test kernel: input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input2
+Oct 26 13:09:54 m_test kernel: ACPI: Power Button [PWRF]
+Oct 26 13:09:54 m_test kernel: ACPI: SSDT 79422c18 003BC (v01  PmRef  Cpu0Ist 00003000 INTL 20061109)
+Oct 26 13:09:54 m_test kernel: ACPI: SSDT 79421918 00433 (v01  PmRef  Cpu0Cst 00003001 INTL 20061109)
+Oct 26 13:09:54 m_test kernel: ACPI: SSDT 79423e18 0015F (v01  PmRef    ApIst 00003000 INTL 20061109)
+Oct 26 13:09:54 m_test kernel: ACPI: SSDT 79424f18 0008D (v01  PmRef    ApCst 00003000 INTL 20061109)
+Oct 26 13:09:54 m_test kernel: [Firmware Bug]: No valid trip found
+Oct 26 13:09:54 m_test kernel: GHES: HEST is not enabled!
+Oct 26 13:09:54 m_test kernel: isapnp: Scanning for PnP cards...
+Oct 26 13:09:54 m_test kernel: Refined TSC clocksource calibration: 1999.999 MHz.
+Oct 26 13:09:54 m_test kernel: Switching to clocksource tsc
+Oct 26 13:09:54 m_test kernel: isapnp: No Plug & Play device found
+Oct 26 13:09:54 m_test kernel: Non-volatile memory driver v1.3
+Oct 26 13:09:54 m_test kernel: Linux agpgart interface v0.103
+Oct 26 13:09:54 m_test kernel: crash memory driver: version 1.1
+Oct 26 13:09:54 m_test kernel: Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+Oct 26 13:09:54 m_test kernel: serial8250: ttyS1 at I/O 0x2f8 (irq = 3) is a 16550A
+Oct 26 13:09:54 m_test kernel: serial8250: ttyS2 at I/O 0x3e8 (irq = 4) is a 16550A
+Oct 26 13:09:54 m_test kernel: serial8250: ttyS3 at I/O 0x2e8 (irq = 7) is a 16550A
+Oct 26 13:09:54 m_test kernel: 00:09: ttyS2 at I/O 0x3e8 (irq = 4) is a 16550A
+Oct 26 13:09:54 m_test kernel: 00:0a: ttyS1 at I/O 0x2f8 (irq = 3) is a 16550A
+Oct 26 13:09:54 m_test kernel: 00:0b: ttyS0 at I/O 0x3e0 (irq = 11) is a 16550A
+Oct 26 13:09:54 m_test kernel: 00:0c: ttyS3 at I/O 0x2e8 (irq = 7) is a 16550A
+Oct 26 13:09:54 m_test kernel: serial 00:0d: disabled
+Oct 26 13:09:54 m_test kernel: serial 00:0e: disabled
+Oct 26 13:09:54 m_test kernel: brd: module loaded
+Oct 26 13:09:54 m_test kernel: loop: module loaded
+Oct 26 13:09:54 m_test kernel: input: Macintosh mouse button emulation as /devices/virtual/input/input3
+Oct 26 13:09:54 m_test kernel: Fixed MDIO Bus: probed
+Oct 26 13:09:54 m_test kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Oct 26 13:09:54 m_test kernel: ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Oct 26 13:09:54 m_test kernel: uhci_hcd: USB Universal Host Controller Interface driver
+Oct 26 13:09:54 m_test kernel: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Oct 26 13:09:54 m_test kernel: serio: i8042 KBD port at 0x60,0x64 irq 1
+Oct 26 13:09:54 m_test kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+Oct 26 13:09:54 m_test kernel: mice: PS/2 mouse device common for all mice
+Oct 26 13:09:54 m_test kernel: rtc_cmos 00:00: RTC can wake from S4
+Oct 26 13:09:54 m_test kernel: rtc_cmos 00:00: rtc core: registered rtc_cmos as rtc0
+Oct 26 13:09:54 m_test kernel: rtc0: alarms up to one month, y3k, 242 bytes nvram, hpet irqs
+Oct 26 13:09:54 m_test kernel: cpuidle: using governor ladder
+Oct 26 13:09:54 m_test kernel: cpuidle: using governor menu
+Oct 26 13:09:54 m_test kernel: EFI Variables Facility v0.08 2004-May-17
+Oct 26 13:09:54 m_test kernel: usbcore: registered new interface driver hiddev
+Oct 26 13:09:54 m_test kernel: usbcore: registered new interface driver usbhid
+Oct 26 13:09:54 m_test kernel: usbhid: v2.6:USB HID core driver
+Oct 26 13:09:54 m_test kernel: GRE over IPv4 demultiplexor driver
+Oct 26 13:09:54 m_test kernel: TCP cubic registered
+Oct 26 13:09:54 m_test kernel: Initializing XFRM netlink socket
+Oct 26 13:09:54 m_test kernel: NET: Registered protocol family 17
+Oct 26 13:09:54 m_test kernel: Using IPI No-Shortcut mode
+Oct 26 13:09:54 m_test kernel: registered taskstats version 1
+Oct 26 13:09:54 m_test kernel: rtc_cmos 00:00: setting system clock to 2022-10-26 10:09:47 UTC (1666778987)
+Oct 26 13:09:54 m_test kernel: Initalizing network drop monitor service
+Oct 26 13:09:54 m_test kernel: Freeing unused kernel memory: 556k freed
+Oct 26 13:09:54 m_test kernel: Write protecting the kernel text: 4628k
+Oct 26 13:09:54 m_test kernel: Write protecting the kernel read-only data: 2004k
+Oct 26 13:09:54 m_test kernel: dracut: dracut-004-409.el6_8.2
+Oct 26 13:09:54 m_test kernel: dracut: rd_NO_LUKS: removing cryptoluks activation
+Oct 26 13:09:54 m_test kernel: device-mapper: uevent: version 1.0.3
+Oct 26 13:09:54 m_test kernel: device-mapper: ioctl: 4.33.1-ioctl (2015-8-18) initialised: dm-devel@redhat.com
+Oct 26 13:09:54 m_test kernel: udev: starting version 147
+Oct 26 13:09:54 m_test kernel: [drm] Initialized drm 1.1.0 20060810
+Oct 26 13:09:54 m_test kernel: i915 0000:00:02.0: PCI INT A -> GSI 16 (level, low) -> IRQ 16
+Oct 26 13:09:54 m_test kernel: [drm] Memory usable by graphics device = 2048M
+Oct 26 13:09:54 m_test kernel: [drm] Supports vblank timestamp caching Rev 2 (21.10.2013).
+Oct 26 13:09:54 m_test kernel: [drm] Driver supports precise vblank timestamp query.
+Oct 26 13:09:54 m_test kernel: vgaarb: device changed decodes: PCI:0000:00:02.0,olddecodes=io+mem,decodes=io+mem:owns=io+mem
+Oct 26 13:09:54 m_test kernel: ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Oct 26 13:09:54 m_test kernel: acpi device:09: registered as cooling_device4
+Oct 26 13:09:54 m_test kernel: input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input4
+Oct 26 13:09:54 m_test kernel: [drm] Initialized i915 1.6.0 20151010 for 0000:00:02.0 on minor 0
+Oct 26 13:09:54 m_test kernel: fbcon: inteldrmfb (fb0) is primary device
+Oct 26 13:09:54 m_test kernel: Console: switching to colour frame buffer device 170x48
+Oct 26 13:09:54 m_test kernel: i915 0000:00:02.0: fb0: inteldrmfb frame buffer device
+Oct 26 13:09:54 m_test kernel: dracut: Starting plymouth daemon
+Oct 26 13:09:54 m_test kernel: ahci 0000:00:13.0: PCI INT A -> GSI 19 (level, low) -> IRQ 19
+Oct 26 13:09:54 m_test kernel: ahci 0000:00:13.0: AHCI 0001.0300 32 slots 2 ports 3 Gbps 0x1 impl SATA mode
+Oct 26 13:09:54 m_test kernel: ahci 0000:00:13.0: flags: 64bit ncq pm led clo pio slum part 
+Oct 26 13:09:54 m_test kernel: scsi0 : ahci
+Oct 26 13:09:54 m_test kernel: scsi1 : ahci
+Oct 26 13:09:54 m_test kernel: ata1: SATA max UDMA/133 abar m2048@0xd0715000 port 0xd0715100 irq 88
+Oct 26 13:09:54 m_test kernel: ata2: DUMMY
+Oct 26 13:09:54 m_test kernel: ata1: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Oct 26 13:09:54 m_test kernel: ata1.00: ATA-9: SSD, S0424A0, max UDMA/133
+Oct 26 13:09:54 m_test kernel: ata1.00: 117231408 sectors, multi 1: LBA48 NCQ (depth 31/32), AA
+Oct 26 13:09:54 m_test kernel: ata1.00: configured for UDMA/133
+Oct 26 13:09:54 m_test kernel: scsi 0:0:0:0: Direct-Access     ATA      SSD              4A0  PQ: 0 ANSI: 5
+Oct 26 13:09:54 m_test kernel: xhci_hcd 0000:00:14.0: PCI INT A -> GSI 20 (level, low) -> IRQ 20
+Oct 26 13:09:54 m_test kernel: xhci_hcd 0000:00:14.0: xHCI Host Controller
+Oct 26 13:09:54 m_test kernel: xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 1
+Oct 26 13:09:54 m_test kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+Oct 26 13:09:54 m_test kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Oct 26 13:09:54 m_test kernel: usb usb1: Product: xHCI Host Controller
+Oct 26 13:09:54 m_test kernel: usb usb1: Manufacturer: Linux 2.6.32-696.1.1.el6.i686 xhci_hcd
+Oct 26 13:09:54 m_test kernel: usb usb1: SerialNumber: 0000:00:14.0
+Oct 26 13:09:54 m_test kernel: usb usb1: configuration #1 chosen from 1 choice
+Oct 26 13:09:54 m_test kernel: hub 1-0:1.0: USB hub found
+Oct 26 13:09:54 m_test kernel: hub 1-0:1.0: 6 ports detected
+Oct 26 13:09:54 m_test kernel: xhci_hcd 0000:00:14.0: xHCI Host Controller
+Oct 26 13:09:54 m_test kernel: xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 2
+Oct 26 13:09:54 m_test kernel: usb usb2: config 1 interface 0 altsetting 0 endpoint 0x81 has no SuperSpeed companion descriptor
+Oct 26 13:09:54 m_test kernel: usb usb2: New USB device found, idVendor=1d6b, idProduct=0003
+Oct 26 13:09:54 m_test kernel: usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Oct 26 13:09:54 m_test kernel: usb usb2: Product: xHCI Host Controller
+Oct 26 13:09:54 m_test kernel: usb usb2: Manufacturer: Linux 2.6.32-696.1.1.el6.i686 xhci_hcd
+Oct 26 13:09:54 m_test kernel: usb usb2: SerialNumber: 0000:00:14.0
+Oct 26 13:09:54 m_test kernel: usb usb2: configuration #1 chosen from 1 choice
+Oct 26 13:09:54 m_test kernel: hub 2-0:1.0: USB hub found
+Oct 26 13:09:54 m_test kernel: hub 2-0:1.0: 1 port detected
+Oct 26 13:09:54 m_test kernel: sd 0:0:0:0: [sda] 117231408 512-byte logical blocks: (60.0 GB/55.8 GiB)
+Oct 26 13:09:54 m_test kernel: sd 0:0:0:0: [sda] Write Protect is off
+Oct 26 13:09:54 m_test kernel: sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Oct 26 13:09:54 m_test kernel: sda: sda1 sda2
+Oct 26 13:09:54 m_test kernel: sd 0:0:0:0: [sda] Attached SCSI disk
+Oct 26 13:09:54 m_test kernel: dracut: Scanning devices sda2  for LVM volume groups 
+Oct 26 13:09:54 m_test kernel: dracut: Reading all physical volumes. This may take a while...
+Oct 26 13:09:54 m_test kernel: dracut: Found volume group "vg_test1" using metadata type lvm2
+Oct 26 13:09:54 m_test kernel: usb 1-2: new high speed USB device number 2 using xhci_hcd
+Oct 26 13:09:54 m_test kernel: dracut: 2 logical volume(s) in volume group "vg_test1" now active
+Oct 26 13:09:54 m_test kernel: usb 1-2: New USB device found, idVendor=05e3, idProduct=0608
+Oct 26 13:09:54 m_test kernel: usb 1-2: New USB device strings: Mfr=0, Product=1, SerialNumber=0
+Oct 26 13:09:54 m_test kernel: usb 1-2: Product: USB2.0 Hub
+Oct 26 13:09:54 m_test kernel: usb 1-2: configuration #1 chosen from 1 choice
+Oct 26 13:09:54 m_test kernel: hub 1-2:1.0: USB hub found
+Oct 26 13:09:54 m_test kernel: hub 1-2:1.0: 4 ports detected
+Oct 26 13:09:54 m_test kernel: EXT4-fs (dm-0): mounted filesystem with ordered data mode. Opts: 
+Oct 26 13:09:54 m_test kernel: dracut: Mounted root filesystem /dev/mapper/vg_test1-lv_root
+Oct 26 13:09:54 m_test kernel: usb 1-3: new high speed USB device number 3 using xhci_hcd
+Oct 26 13:09:54 m_test kernel: SELinux:  Disabled at runtime.
+Oct 26 13:09:54 m_test kernel: type=1404 audit(1666778990.741:2): selinux=0 auid=4294967295 ses=4294967295
+Oct 26 13:09:54 m_test kernel: dracut: 
+Oct 26 13:09:54 m_test kernel: dracut: Switching root
+Oct 26 13:09:54 m_test kernel: usb 1-3: New USB device found, idVendor=05e3, idProduct=0608
+Oct 26 13:09:54 m_test kernel: usb 1-3: New USB device strings: Mfr=0, Product=1, SerialNumber=0
+Oct 26 13:09:54 m_test kernel: usb 1-3: Product: USB2.0 Hub
+Oct 26 13:09:54 m_test kernel: usb 1-3: configuration #1 chosen from 1 choice
+Oct 26 13:09:54 m_test kernel: hub 1-3:1.0: USB hub found
+Oct 26 13:09:54 m_test kernel: hub 1-3:1.0: 4 ports detected
+Oct 26 13:09:54 m_test kernel: usb 1-2.2: new low speed USB device number 4 using xhci_hcd
+Oct 26 13:09:54 m_test kernel: usb 1-2.2: New USB device found, idVendor=0101, idProduct=0007
+Oct 26 13:09:54 m_test kernel: usb 1-2.2: New USB device strings: Mfr=0, Product=1, SerialNumber=0
+Oct 26 13:09:54 m_test kernel: usb 1-2.2: Product: USB OPTICAL MOUSE 
+Oct 26 13:09:54 m_test kernel: usb 1-2.2: configuration #1 chosen from 1 choice
+Oct 26 13:09:54 m_test kernel: usb 1-2.2: ep 0x81 - rounding interval to 64 microframes, ep desc says 80 microframes
+Oct 26 13:09:54 m_test kernel: input: USB OPTICAL MOUSE  as /devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2.2/1-2.2:1.0/input/input5
+Oct 26 13:09:54 m_test kernel: generic-usb 0003:0101:0007.0001: input,hidraw0: USB HID v1.11 Mouse [USB OPTICAL MOUSE ] on usb-0000:00:14.0-2.2/input0
+Oct 26 13:09:54 m_test kernel: usb 1-2.3: new low speed USB device number 5 using xhci_hcd
+Oct 26 13:09:54 m_test kernel: udev: starting version 147
+Oct 26 13:09:54 m_test kernel: usb 1-2.3: New USB device found, idVendor=1a2c, idProduct=2c27
+Oct 26 13:09:54 m_test kernel: usb 1-2.3: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Oct 26 13:09:54 m_test kernel: usb 1-2.3: Product: USB Keyboard
+Oct 26 13:09:54 m_test kernel: usb 1-2.3: Manufacturer: USB
+Oct 26 13:09:54 m_test kernel: usb 1-2.3: configuration #1 chosen from 1 choice
+Oct 26 13:09:54 m_test kernel: usb 1-2.3: ep 0x81 - rounding interval to 64 microframes, ep desc says 80 microframes
+Oct 26 13:09:54 m_test kernel: usb 1-2.3: ep 0x82 - rounding interval to 64 microframes, ep desc says 80 microframes
+Oct 26 13:09:54 m_test kernel: input: USB USB Keyboard as /devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2.3/1-2.3:1.0/input/input6
+Oct 26 13:09:54 m_test kernel: generic-usb 0003:1A2C:2C27.0002: input,hidraw1: USB HID v1.10 Keyboard [USB USB Keyboard] on usb-0000:00:14.0-2.3/input0
+Oct 26 13:09:54 m_test kernel: input: USB USB Keyboard as /devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2.3/1-2.3:1.1/input/input7
+Oct 26 13:09:54 m_test kernel: generic-usb 0003:1A2C:2C27.0003: input,hidraw2: USB HID v1.10 Device [USB USB Keyboard] on usb-0000:00:14.0-2.3/input1
+Oct 26 13:09:54 m_test kernel: snd_hda_intel 0000:00:1b.0: PCI INT A -> GSI 22 (level, low) -> IRQ 22
+Oct 26 13:09:54 m_test kernel: sound hdaudioC0D0: autoconfig for ALC662 rev3: line_outs=1 (0x14/0x0/0x0/0x0/0x0) type:line
+Oct 26 13:09:54 m_test kernel: sound hdaudioC0D0:    speaker_outs=1 (0x15/0x0/0x0/0x0/0x0)
+Oct 26 13:09:54 m_test kernel: sound hdaudioC0D0:    hp_outs=1 (0x1b/0x0/0x0/0x0/0x0)
+Oct 26 13:09:54 m_test kernel: sound hdaudioC0D0:    mono: mono_out=0x0
+Oct 26 13:09:54 m_test kernel: sound hdaudioC0D0:    inputs:
+Oct 26 13:09:54 m_test kernel: sound hdaudioC0D0:      Front Mic=0x19
+Oct 26 13:09:54 m_test kernel: sound hdaudioC0D0:      Rear Mic=0x18
+Oct 26 13:09:54 m_test kernel: input: HDA Intel PCH Front Mic as /devices/pci0000:00/0000:00:1b.0/sound/card0/input8
+Oct 26 13:09:54 m_test kernel: input: HDA Intel PCH Rear Mic as /devices/pci0000:00/0000:00:1b.0/sound/card0/input9
+Oct 26 13:09:54 m_test kernel: input: HDA Intel PCH Line Out as /devices/pci0000:00/0000:00:1b.0/sound/card0/input10
+Oct 26 13:09:54 m_test kernel: input: HDA Intel PCH Front Headphone as /devices/pci0000:00/0000:00:1b.0/sound/card0/input11
+Oct 26 13:09:54 m_test kernel: input: HDA Intel PCH HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:1b.0/sound/card0/input12
+Oct 26 13:09:54 m_test kernel: sd 0:0:0:0: Attached scsi generic sg0 type 0
+Oct 26 13:09:54 m_test kernel: r8169 Gigabit Ethernet driver 2.3LK-NAPI loaded
+Oct 26 13:09:54 m_test kernel: r8169 0000:02:00.0: PCI INT A -> GSI 17 (level, low) -> IRQ 17
+Oct 26 13:09:54 m_test kernel: r8169 0000:02:00.0: eth0: RTL8168evl/8111evl at 0xf8eb4000, 00:e0:4c:49:2d:91, XID 0c900800 IRQ 91
+Oct 26 13:09:54 m_test kernel: r8169 0000:02:00.0: eth0: jumbo features [frames: 9200 bytes, tx checksumming: ko]
+Oct 26 13:09:54 m_test kernel: iTCO_vendor_support: vendor-support=0
+Oct 26 13:09:54 m_test kernel: iTCO_wdt: Intel TCO WatchDog Timer Driver v1.11rh
+Oct 26 13:09:54 m_test kernel: iTCO_wdt: Found a Bay Trail SoC TCO device (Version=3, TCOBASE=0x0460)
+Oct 26 13:09:54 m_test kernel: iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+Oct 26 13:09:54 m_test kernel: udev: renamed network interface eth0 to eth16
+Oct 26 13:09:54 m_test kernel: parport_pc 00:08: reported by Plug and Play ACPI
+Oct 26 13:09:54 m_test kernel: parport0: PC-style at 0x378 (0x778), irq 5 [PCSPP,TRISTATE]
+Oct 26 13:09:54 m_test kernel: ppdev: user-space parallel port driver
+Oct 26 13:09:54 m_test kernel: EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: 
+Oct 26 13:09:54 m_test kernel: Adding 3125244k swap on /dev/mapper/vg_test1-lv_swap.  Priority:-1 extents:1 across:3125244k SS
+Oct 26 13:09:54 m_test kernel: NET: Registered protocol family 10
+Oct 26 13:09:54 m_test kernel: lo: Disabled Privacy Extensions
+Oct 26 13:09:54 m_test kernel: type=1305 audit(1666778994.089:3): audit_pid=1642 old=0 auid=4294967295 ses=4294967295 res=1
+Oct 26 13:09:54 m_test NetworkManager[1718]: <info> NetworkManager (version 0.8.1-113.el6) is starting...
+Oct 26 13:09:54 m_test NetworkManager[1718]: <info> Read config file /etc/NetworkManager/NetworkManager.conf
+Oct 26 13:09:54 m_test NetworkManager[1718]: <info> trying to start the modem manager...
+Oct 26 13:09:54 m_test modem-manager: ModemManager (version 0.4.0-5.git20100628.el6) starting...
+Oct 26 13:09:54 m_test modem-manager: Loaded plugin Nokia
+Oct 26 13:09:54 m_test modem-manager: Loaded plugin Generic
+Oct 26 13:09:54 m_test modem-manager: Loaded plugin AnyData
+Oct 26 13:09:54 m_test modem-manager: Loaded plugin Longcheer
+Oct 26 13:09:54 m_test modem-manager: Loaded plugin Option
+Oct 26 13:09:54 m_test modem-manager: Loaded plugin Huawei
+Oct 26 13:09:54 m_test modem-manager: Loaded plugin Gobi
+Oct 26 13:09:54 m_test modem-manager: Loaded plugin Ericsson MBM
+Oct 26 13:09:54 m_test modem-manager: Loaded plugin ZTE
+Oct 26 13:09:54 m_test modem-manager: Loaded plugin Sierra
+Oct 26 13:09:54 m_test modem-manager: Loaded plugin Novatel
+Oct 26 13:09:54 m_test modem-manager: Loaded plugin Option High-Speed
+Oct 26 13:09:54 m_test modem-manager: Loaded plugin MotoC
+Oct 26 13:09:54 m_test modem-manager: Loaded plugin SimTech
+Oct 26 13:09:54 m_test NetworkManager[1718]: <info> monitoring kernel firmware directory '/lib/firmware'.
+Oct 26 13:09:54 m_test NetworkManager[1718]: <info> Bonding/Bridging/VLAN support disabled
+Oct 26 13:09:54 m_test NetworkManager[1718]:    ifcfg-rh: Acquired D-Bus service com.redhat.ifcfgrh1
+Oct 26 13:09:54 m_test NetworkManager[1718]: <info> Loaded plugin ifcfg-rh: (c) 2007 - 2008 Red Hat, Inc.  To report bugs please use the NetworkManager mailing list.
+Oct 26 13:09:54 m_test NetworkManager[1718]: <info> Loaded plugin keyfile: (c) 2007 - 2008 Red Hat, Inc.  To report bugs please use the NetworkManager mailing list.
+Oct 26 13:09:54 m_test NetworkManager[1718]: <info> Loaded plugin ibft: (c) 2015 Red Hat, Inc.  To report bugs please use the NetworkManager mailing list.
+Oct 26 13:09:54 m_test NetworkManager[1718]:    ifcfg-rh: parsing /etc/sysconfig/network-scripts/ifcfg-lo ... 
+Oct 26 13:09:54 m_test NetworkManager[1718]:    ifcfg-rh: parsing /etc/sysconfig/network-scripts/ifcfg-eth0 ... 
+Oct 26 13:09:54 m_test NetworkManager[1718]:    ifcfg-rh:     read connection 'eth0'
+Oct 26 13:09:54 m_test NetworkManager[1718]: <info> WiFi enabled by radio killswitch; enabled by state file
+Oct 26 13:09:54 m_test NetworkManager[1718]: <info> WWAN enabled by radio killswitch; enabled by state file
+Oct 26 13:09:54 m_test NetworkManager[1718]: <info> WiMAX enabled by radio killswitch; enabled by state file
+Oct 26 13:09:54 m_test NetworkManager[1718]: <info> Networking is enabled by state file
+Oct 26 13:09:54 m_test kernel: 802.1Q VLAN Support v1.8 Ben Greear <greearb@candelatech.com>
+Oct 26 13:09:54 m_test kernel: All bugs added by David S. Miller <davem@redhat.com>
+Oct 26 13:09:54 m_test NetworkManager[1718]: <info> (eth16): carrier is OFF
+Oct 26 13:09:54 m_test NetworkManager[1718]: <info> (eth16): new Ethernet device (driver: 'r8169' ifindex: 2)
+Oct 26 13:09:54 m_test NetworkManager[1718]: <info> (eth16): exported as /org/freedesktop/NetworkManager/Devices/0
+Oct 26 13:09:54 m_test NetworkManager[1718]: <info> (eth16): now managed
+Oct 26 13:09:54 m_test NetworkManager[1718]: <info> (eth16): device state change: unmanaged -> unavailable (reason 'managed') [1 2 2]
+Oct 26 13:09:54 m_test NetworkManager[1718]: <info> (eth16): bringing up device.
+Oct 26 13:09:54 m_test kernel: r8169 0000:02:00.0: firmware: requesting rtl_nic/rtl8168e-3.fw
+Oct 26 13:09:54 m_test kernel: r8169 0000:02:00.0: eth16: link down
+Oct 26 13:09:54 m_test kernel: r8169 0000:02:00.0: eth16: link down
+Oct 26 13:09:54 m_test kernel: ADDRCONF(NETDEV_UP): eth16: link is not ready
+Oct 26 13:09:54 m_test NetworkManager[1718]: <info> (eth16): preparing device.
+Oct 26 13:09:54 m_test NetworkManager[1718]: <info> (eth16): deactivating device (reason 'managed') [2]
+Oct 26 13:09:54 m_test NetworkManager[1718]: <info> modem-manager is now available
+Oct 26 13:09:54 m_test NetworkManager[1718]: <info> Trying to start the supplicant...
+Oct 26 13:09:54 m_test NetworkManager[1718]: <info> wpa_supplicant started
+Oct 26 13:09:55 m_test pcscd: pcscdaemon.c:506:main() pcsc-lite 1.5.2 daemon ready.
+Oct 26 13:09:55 m_test kdump: kexec: loaded kdump kernel
+Oct 26 13:09:55 m_test kdump: started up
+Oct 26 13:09:55 m_test xinetd[1998]: xinetd Version 2.3.14 started with libwrap loadavg labeled-networking options compiled in.
+Oct 26 13:09:55 m_test xinetd[1998]: Started working: 2 available services
+Oct 26 13:09:57 m_test kernel: r8169 0000:02:00.0: eth16: link up
+Oct 26 13:09:57 m_test kernel: ADDRCONF(NETDEV_CHANGE): eth16: link becomes ready
+Oct 26 13:09:57 m_test NetworkManager[1718]: <info> (eth16): carrier now ON (device state 2)
+Oct 26 13:09:57 m_test NetworkManager[1718]: <info> (eth16): device state change: unavailable -> disconnected (reason 'carrier-chagned') [2 3 40]
+Oct 26 13:09:57 m_test NetworkManager[1718]: <info> Auto-activating connection 'eth0'.
+Oct 26 13:09:57 m_test NetworkManager[1718]: <info> Activation (eth16) starting connection 'eth0'
+Oct 26 13:09:57 m_test NetworkManager[1718]: <info> (eth16): device state change: disconnected -> prepare (reason 'none') [3 4 0]
+Oct 26 13:09:57 m_test NetworkManager[1718]: <info> Activation (eth16) Stage 1 of 5 (Device Prepare) scheduled...
+Oct 26 13:09:57 m_test NetworkManager[1718]: <info> Activation (eth16) Stage 1 of 5 (Device Prepare) started...
+Oct 26 13:09:57 m_test NetworkManager[1718]: <info> Activation (eth16) Stage 2 of 5 (Device Configure) scheduled...
+Oct 26 13:09:57 m_test NetworkManager[1718]: <info> Activation (eth16) Stage 1 of 5 (Device Prepare) complete.
+Oct 26 13:09:57 m_test NetworkManager[1718]: <info> Activation (eth16) Stage 2 of 5 (Device Configure) starting...
+Oct 26 13:09:57 m_test NetworkManager[1718]: <info> (eth16): device state change: prepare -> config (reason 'none') [4 5 0]
+Oct 26 13:09:57 m_test NetworkManager[1718]: <info> Activation (eth16) Stage 2 of 5 (Device Configure) successful.
+Oct 26 13:09:57 m_test NetworkManager[1718]: <info> Activation (eth16) Stage 3 of 5 (IP Configure Start) scheduled.
+Oct 26 13:09:57 m_test NetworkManager[1718]: <info> Activation (eth16) Stage 2 of 5 (Device Configure) complete.
+Oct 26 13:09:57 m_test NetworkManager[1718]: <info> Activation (eth16) Stage 3 of 5 (IP Configure Start) started...
+Oct 26 13:09:57 m_test NetworkManager[1718]: <info> (eth16): device state change: config -> ip-config (reason 'none') [5 7 0]
+Oct 26 13:09:57 m_test NetworkManager[1718]: <info> Activation (eth16) Beginning DHCPv4 transaction
+Oct 26 13:09:57 m_test NetworkManager[1718]: <info> dhclient started with pid 2026
+Oct 26 13:09:57 m_test NetworkManager[1718]: <info> Activation (eth16) DHCPv4 will time out in 45 seconds
+Oct 26 13:09:57 m_test NetworkManager[1718]: <info> Activation (eth16) Stage 3 of 5 (IP Configure Start) complete.
+Oct 26 13:09:57 m_test dhclient[2026]: Internet Systems Consortium DHCP Client 4.1.1-P1
+Oct 26 13:09:57 m_test dhclient[2026]: Copyright 2004-2010 Internet Systems Consortium.
+Oct 26 13:09:57 m_test dhclient[2026]: All rights reserved.
+Oct 26 13:09:57 m_test dhclient[2026]: For info, please visit https://www.isc.org/software/dhcp/
+Oct 26 13:09:57 m_test dhclient[2026]: 
+Oct 26 13:09:57 m_test NetworkManager[1718]: <info> (eth16): DHCPv4 state changed nbi -> preinit
+Oct 26 13:09:57 m_test dhclient[2026]: Listening on LPF/eth16/00:e0:4c:49:2d:91
+Oct 26 13:09:57 m_test dhclient[2026]: Sending on   LPF/eth16/00:e0:4c:49:2d:91
+Oct 26 13:09:57 m_test dhclient[2026]: Sending on   Socket/fallback
+Oct 26 13:10:01 m_test dhclient[2026]: DHCPREQUEST on eth16 to 255.255.255.255 port 67 (xid=0x23b6b3b2)
+Oct 26 13:10:01 m_test dhclient[2026]: DHCPACK from 10.11.8.1 (xid=0x23b6b3b2)
+Oct 26 13:10:01 m_test dhclient[2026]: bound to 10.11.9.54 -- renewal in 371820 seconds.
+Oct 26 13:10:01 m_test NetworkManager[1718]: <info> (eth16): DHCPv4 state changed preinit -> reboot
+Oct 26 13:10:01 m_test NetworkManager[1718]: <info> Activation (eth16) Stage 4 of 5 (IP4 Configure Get) scheduled...
+Oct 26 13:10:01 m_test NetworkManager[1718]: <info> Activation (eth16) Stage 4 of 5 (IP4 Configure Get) started...
+Oct 26 13:10:01 m_test NetworkManager[1718]: <info>   address 10.11.9.54
+Oct 26 13:10:01 m_test NetworkManager[1718]: <info>   prefix 23 (255.255.254.0)
+Oct 26 13:10:01 m_test NetworkManager[1718]: <info>   gateway 10.11.8.1
+Oct 26 13:10:01 m_test NetworkManager[1718]: <info>   nameserver '172.16.2.5'
+Oct 26 13:10:01 m_test NetworkManager[1718]: <info>   nameserver '172.16.2.4'
+Oct 26 13:10:01 m_test NetworkManager[1718]: <info>   nameserver '192.9.1.14'
+Oct 26 13:10:01 m_test NetworkManager[1718]: <info>   domain name 'domain.central'
+Oct 26 13:10:01 m_test NetworkManager[1718]: <info> Activation (eth16) Stage 5 of 5 (IP Configure Commit) scheduled...
+Oct 26 13:10:01 m_test NetworkManager[1718]: <info> Activation (eth16) Stage 4 of 5 (IP4 Configure Get) complete.
+Oct 26 13:10:01 m_test NetworkManager[1718]: <info> Activation (eth16) Stage 5 of 5 (IP Configure Commit) started...
+Oct 26 13:10:01 m_test xinetd[1998]: START: x11vnc-5900 pid=2063 from=::ffff:10.11.8.86
+Oct 26 13:10:01 m_test xinetd[1998]: EXIT: x11vnc-5900 status=0 pid=2063 duration=0(sec)
+Oct 26 13:10:02 m_test NetworkManager[1718]: <info> (eth16): device state change: ip-config -> activated (reason 'none') [7 8 0]
+Oct 26 13:10:02 m_test NetworkManager[1718]: <info> Policy set 'eth0' (eth16) as default for IPv4 routing and DNS.
+Oct 26 13:10:02 m_test NetworkManager[1718]: <info> Activation (eth16) successful, device activated.
+Oct 26 13:10:02 m_test NetworkManager[1718]: <info> Activation (eth16) Stage 5 of 5 (IP Configure Commit) complete.
+Oct 26 13:10:09 m_test polkitd[2519]: started daemon version 0.96 using authority implementation `local' version `0.96'
+Oct 26 13:10:09 m_test rtkit-daemon[2524]: Sucessfully made thread 2521 of process 2521 (/usr/bin/pulseaudio) owned by '42' high priority at nice level -11.
+Oct 26 13:10:09 m_test dbus-daemon: [system] Rejected send message, 1 matched rules; type="method_call", sender=":1.27" (uid=42 pid=2510 comm="gnome-power-manager) interface="org.freedesktop.Hal.Device.LaptopPanel" member="GetBrightness" error name="(unset)" requested_reply=0 destination=":1.4" (uid=0 pid=1792 comm="hald))
+Oct 26 13:10:09 m_test rtkit-daemon[2524]: Sucessfully made thread 2529 of process 2521 (/usr/bin/pulseaudio) owned by '42' RT at priority 5.
+Oct 26 13:10:09 m_test rtkit-daemon[2524]: Sucessfully made thread 2530 of process 2521 (/usr/bin/pulseaudio) owned by '42' RT at priority 5.
+Oct 26 13:10:18 m_test xinetd[1998]: START: x11vnc-5900 pid=2534 from=::ffff:10.11.8.86
+Oct 26 13:10:21 m_test xinetd[1998]: EXIT: x11vnc-5900 status=0 pid=2534 duration=3(sec)
+Oct 26 13:10:24 m_test xinetd[1998]: START: x11vnc-5900 pid=2696 from=::ffff:10.11.8.86
+Oct 26 13:10:31 m_test xinetd[1998]: EXIT: x11vnc-5900 status=0 pid=2696 duration=7(sec)
+Oct 26 13:10:33 m_test dbus-daemon: [system] Rejected send message, 1 matched rules; type="method_call", sender=":1.41" (uid=42 pid=2961 comm="gnome-power-manager) interface="org.freedesktop.Hal.Device.LaptopPanel" member="GetBrightness" error name="(unset)" requested_reply=0 destination=":1.4" (uid=0 pid=1792 comm="hald))
+Oct 26 13:10:35 m_test xinetd[1998]: START: x11vnc-5900 pid=2972 from=::ffff:10.11.8.86
+Oct 26 13:10:36 m_test xinetd[1998]: EXIT: x11vnc-5900 status=0 pid=2972 duration=1(sec)
+Oct 26 13:10:40 m_test xinetd[1998]: START: x11vnc-5900 pid=3134 from=::ffff:10.11.8.86
+Oct 26 13:10:45 m_test xinetd[1998]: EXIT: x11vnc-5900 status=0 pid=3134 duration=5(sec)
+Oct 26 13:10:48 m_test dbus-daemon: [system] Rejected send message, 1 matched rules; type="method_call", sender=":1.52" (uid=42 pid=3419 comm="gnome-power-manager) interface="org.freedesktop.Hal.Device.LaptopPanel" member="GetBrightness" error name="(unset)" requested_reply=0 destination=":1.4" (uid=0 pid=1792 comm="hald))
+Oct 26 13:10:49 m_test xinetd[1998]: START: x11vnc-5900 pid=3430 from=::ffff:10.11.8.86
